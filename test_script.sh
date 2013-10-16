@@ -61,7 +61,7 @@ while {$count > 0} {
 # Pass Temperature Notification Data to file
 expect -i $orig "Notification handle = 0x0025 value: "
 expect -i $orig "CON"
-spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getTemp $expect_out(buffer)
+spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getTemp $expect_out(buffer) $arg1
 expect eof
 #exp_close -i $spawn_id
 exp_wait
@@ -69,7 +69,7 @@ exp_wait
 # Pass Accelerometer Notification Data to file
 expect -i $orig "Notification handle = 0x002d value: "
 expect -i $orig "CON"
-spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getAccel $expect_out(buffer)
+spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getAccel $expect_out(buffer) $arg1
 expect eof
 #exp_close -i $spawn_id
 exp_wait
@@ -78,7 +78,7 @@ exp_wait
 # Pass Humidity Notification Data to file
 expect -i $orig "Notification handle = 0x0038 value: "
 expect -i $orig "CON"
-spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getHum $expect_out(buffer)
+spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getHum $expect_out(buffer) $arg1
 expect eof
 #exp_close -i $spawn_id
 exp_wait
@@ -87,7 +87,7 @@ exp_wait
 # Pass Magnetometer Notification Data to file
 expect -i $orig "Notification handle = 0x0040 value: "
 expect -i $orig "CON"
-spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getMagn $expect_out(buffer)
+spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getMagn $expect_out(buffer) $arg1
 expect eof
 #exp_close -i $spawn_id
 exp_wait
@@ -96,7 +96,7 @@ exp_wait
 # Pass Gyroscope Notification Data to file
 expect -i $orig "Notification handle = 0x0057 value: "
 expect -i $orig "CON"
-spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getGyro $expect_out(buffer)
+spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getGyro $expect_out(buffer) $arg1
 expect eof
 #exp_close -i $spawn_id
 exp_wait
@@ -114,7 +114,7 @@ expect -i $orig "written successfully"
 send -i $orig "\r\rchar-read-hnd 0x4B\r"
 expect -i $orig "descriptor: "
 expect -i $orig "CON"
-spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getBarm $calib_data$expect_out(buffer)
+spawn /home/optimus-prime/DR-SensorTag/run_tool.sh getBarm $calib_data$expect_out(buffer) $arg1
 expect eof
 #exp_close -i spawn_id
 exp_wait

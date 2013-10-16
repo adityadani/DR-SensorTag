@@ -4,6 +4,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/time.h>
+#include <string.h>
 
 long getinstanttime()
 {
@@ -36,7 +37,15 @@ int main(int argc, char **argv) {
 	int8 pData[6]; 
 	int inp, i;
 	FILE *fp;
-	fp = fopen("/home/optimus-prime/DR-SensorTag/op.txt", "a+");
+
+	char filename[200];
+
+	filename[0] = 0;
+	strcat(filename, "/home/optimus-prime/DR-SensorTag/");
+	strcat(filename, argv[argc-1]);
+
+	fp = fopen(filename, "a+");
+	//fp = fopen("/home/optimus-prime/DR-SensorTag/op.txt", "a+");
 
 
 	for(i=0;i<4;i++) {

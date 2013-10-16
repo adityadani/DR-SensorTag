@@ -30,8 +30,16 @@ int main(int argc, char **argv) {
 	int hex1, hex2, hex3;
 	float X, Y, Z;
 	FILE *fp;
-	fp = fopen("/home/optimus-prime/DR-SensorTag/op.txt", "a+");
+	char filename[200];
+
+	filename[0] = 0;
+	strcat(filename, "/home/optimus-prime/DR-SensorTag/");
+	strcat(filename, argv[argc-1]);
+	fp = fopen(filename, "a+");
+
+	//fp = fopen("/home/optimus-prime/DR-SensorTag/op.txt", "a+");
 	
+
 	sscanf(argv[1], "%x", &hex1);
 	sscanf(argv[2], "%x", &hex2);
 	sscanf(argv[3], "%x", &hex3);
