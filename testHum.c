@@ -57,25 +57,23 @@ int main(int argc, char **argv) {
 	char filename[200];
 
 	filename[0] = 0;
-	strcat(filename, "/home/optimus-prime/DR-SensorTag/");
+	strcat(filename, "/home/optimus-prime/DR-SensorTag-v2/hum_");
 	strcat(filename, argv[argc-1]);
 	fp = fopen(filename, "a+");
 
-	//fp = fopen("/home/optimus-prime/DR-SensorTag/op.txt", "a+");
 
-	printf("Got data");
-	for(i=0;i<4;i++) {
-		sscanf(argv[i+1], "%x", &inp);		
-		pData[i] = (uint8)inp;
+	int j=0;
+	for(i=2;i<6;i++,j++) {
+		sscanf(argv[i], "%x", &inp);		
+		pData[j] = (uint8)inp;
 	}
 
 	hexTemp = BUILD_UINT16(pData[0], pData[1]);
 	hexHum = BUILD_UINT16(pData[2], pData[3]);
 
-	fprintf(fp, "\n---------------------------------------------------------");
-	fprintf(fp, "\nHumidity Data [%ld]\n", getinstanttime());
-	fprintf(fp, "Temp : %3.2f", calcHumTmp(hexTemp));
-	fprintf(fp, "\tHumidity : %3.2f", calcHumRel(hexHum));
-	fprintf(fp, "\n---------------------------------------------------------\n");
+	fprintf(fp, "%s , ", argv[1]);
+	fprintf(fp, "%3.2f , ", calcHumTmp(hexTemp));
+	fprintf(fp, "%3.2f \n", calcHumRel(hexHum));
+	fclose(fp);
 
 }

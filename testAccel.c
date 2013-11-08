@@ -33,16 +33,16 @@ int main(int argc, char **argv) {
 	char filename[200];
 
 	filename[0] = 0;
-	strcat(filename, "/home/optimus-prime/DR-SensorTag/");
+	strcat(filename, "/home/optimus-prime/DR-SensorTag-v2/accel_");
 	strcat(filename, argv[argc-1]);
 	fp = fopen(filename, "a+");
 
 	//fp = fopen("/home/optimus-prime/DR-SensorTag/op.txt", "a+");
 	
 
-	sscanf(argv[1], "%x", &hex1);
-	sscanf(argv[2], "%x", &hex2);
-	sscanf(argv[3], "%x", &hex3);
+	sscanf(argv[2], "%x", &hex1);
+	sscanf(argv[3], "%x", &hex2);
+	sscanf(argv[4], "%x", &hex3);
 
 	hexX = (int8)(hex1);
 	hexY = (int8)(hex2);
@@ -54,12 +54,12 @@ int main(int argc, char **argv) {
 	Y = calcAccel(hexX);
 	Z = calcAccel(-1*hexZ);
 
-	fprintf(fp, "\n---------------------------------------------------------");
-	fprintf(fp, "\nAccelerometer Data [%ld]\n", getinstanttime());
-	fprintf(fp, "X : %3.2f", X);
-	fprintf(fp, "\tY : %3.2f", Y);
-	fprintf(fp, "\tZ : %3.2f", Z);
-	fprintf(fp, "\n---------------------------------------------------------\n");
+	//fprintf(fp, "\n---------------------------------------------------------");
+	fprintf(fp, "%s , ",argv[1]);
+	fprintf(fp, "%3.2f , ", X);
+	fprintf(fp, "%3.2f , ", Y);
+	fprintf(fp, "%3.2f \n", Z);
+	//fprintf(fp, "\n---------------------------------------------------------\n");
 	fclose(fp);
        
 }

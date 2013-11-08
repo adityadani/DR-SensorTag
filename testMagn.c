@@ -42,16 +42,16 @@ int main(int argc, char **argv) {
 	char filename[200];
 
 	filename[0] = 0;
-	strcat(filename, "/home/optimus-prime/DR-SensorTag/");
+	strcat(filename, "/home/optimus-prime/DR-SensorTag-v2/magn_");
 	strcat(filename, argv[argc-1]);
 	fp = fopen(filename, "a+");
 
 	//fp = fopen("/home/optimus-prime/DR-SensorTag/op.txt", "a+");
 
-
-	for(i=0;i<4;i++) {
-		sscanf(argv[i+1], "%x", &inp);		
-		pData[i] = (int8)inp;
+	int j=0;
+	for(i=2;i<8;i++,j++) {
+		sscanf(argv[i], "%x", &inp);		
+		pData[j] = (int8)inp;
 	}
 
 
@@ -59,12 +59,10 @@ int main(int argc, char **argv) {
 	hexY = BUILD_INT16(pData[2], pData[3]);
 	hexZ = BUILD_INT16(pData[4], pData[5]);
 
-	fprintf(fp, "\n---------------------------------------------------------");
-	fprintf(fp, "\nMagnetometer Data [%ld]", getinstanttime());
-	fprintf(fp, "\nX : %5.3f", calcMagn(hexX));
-	fprintf(fp, "\tY : %5.3f", calcMagn(hexY));
-	fprintf(fp, "\tZ : %5.3f", calcMagn(hexZ));
-	fprintf(fp, "\n---------------------------------------------------------");
+	fprintf(fp, "%s , ", argv[1]);
+	fprintf(fp, "%5.3f , ", calcMagn(hexX));
+	fprintf(fp, "%5.3f , ", calcMagn(hexY));
+	fprintf(fp, "%5.3f \n", calcMagn(hexZ));
 	fclose(fp);
 
 }

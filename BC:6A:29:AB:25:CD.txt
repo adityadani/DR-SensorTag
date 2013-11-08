@@ -1,0 +1,5541 @@
+1383909028936
+0 spawn sudo hcitool lescan
+1383909028943
+0 spawn gatttool -b BC:6A:29:AB:25:CD -I
+1383909028946
+0 [   ][BC:6A:29:AB:25:CD][LE]> connect
+1383909029263
+0 Connecting... [16@[CON][BC:6A:29:AB:25:CD][LE]>[Cchar-write-req 0x29 01
+1383909029399
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909029401
+0 
+1383909029404
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909029406
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x26 0100
+1383909029540
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909029543
+0 
+1383909029545
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909029547
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x26
+1383909029679
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909029682
+0 Notification handle = 0x0025 value: fd fd 30 0e 
+1383909029685
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909029687
+0 Characteristic value/descriptor: 01 00 
+1383909029690
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x31 01
+1383909029820
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909029822
+0 
+1383909029825
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909029827
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x2E 0100
+1383909030030
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909030032
+0 
+1383909030035
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030037
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x31
+1383909030169
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030172
+0 Characteristic value/descriptor: 01 
+1383909030174
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x3C 01
+1383909030315
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909030317
+0 
+1383909030320
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030322
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x39 0100
+1383909030449
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909030452
+0 
+1383909030455
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030457
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x3C
+1383909030590
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030592
+0 Characteristic value/descriptor: 01 
+1383909030595
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x44 01
+1383909030659
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030661
+0 Notification handle = 0x0025 value: 07 fe 30 0e 
+1383909030729
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909030732
+0 
+1383909030734
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030737
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x41 0100
+1383909030799
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030801
+0 Notification handle = 0x002d value: 03 03 3e 
+1383909030868
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909030871
+0 
+1383909030874
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909030876
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x44
+1383909031009
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031011
+0 Characteristic value/descriptor: 01 
+1383909031014
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x5B 01
+1383909031150
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909031152
+0 
+1383909031154
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031157
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x58 0100
+1383909031289
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909031291
+0 
+1383909031294
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031296
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x5B
+1383909031359
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031361
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909031429
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031432
+0 Characteristic value/descriptor: 01 
+1383909031434
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909031569
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909031571
+0 
+1383909031574
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031576
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909031646
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031648
+0 Notification handle = 0x0025 value: 0a fe 30 0e 
+1383909031709
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031712
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909031714
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031716
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031718
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909031779
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031782
+0 Notification handle = 0x002d value: 00 01 42 
+1383909031849
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909031852
+0 
+1383909031854
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031857
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909031996
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909031999
+0 Characteristic value/descriptor: fe 01 3b 86 
+1383909032001
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909032003
+0 Counter : 2
+1383909032006
+0 char-write-req 0x4F 02
+1383909032129
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909032132
+0 
+1383909032134
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032136
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909032199
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032202
+0 Notification handle = 0x0057 value: 63 fe 00 00 00 00 
+1383909032269
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032272
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909032274
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032277
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032279
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909032409
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909032412
+0 
+1383909032415
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032417
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032419
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909032422
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909032549
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032551
+0 Characteristic value/descriptor: fe 01 3b 86 
+1383909032554
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909032556
+0 Counter : 3
+1383909032558
+0 char-write-req 0x4F 02
+1383909032619
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032623
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909032689
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909032691
+0 
+1383909032694
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032696
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909032698
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032700
+0 Notification handle = 0x0040 value: b3 f6 bc 04 23 f8 
+1383909032759
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032761
+0 Notification handle = 0x002d value: 03 00 3f 
+1383909032830
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032832
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909032835
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032838
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032840
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909032969
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909032972
+0 
+1383909032974
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909032977
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909033109
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033113
+0 Characteristic value/descriptor: fe 01 20 86 
+1383909033117
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909033120
+0 Counter : 4
+1383909033122
+0 char-write-req 0x4F 02
+1383909033186
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033189
+0 Notification handle = 0x0057 value: 69 fe 00 00 00 00 
+1383909033251
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909033252
+0 
+1383909033254
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033255
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909033390
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033392
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909033395
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033397
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033400
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909033459
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033462
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909033529
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909033531
+0 
+1383909033534
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033536
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909033669
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033671
+0 Characteristic value/descriptor: fe 01 20 86 
+1383909033672
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909033673
+0 Counter : 5
+1383909033675
+0 
+1383909033675
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909033676
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909033810
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909033812
+0 
+1383909033815
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033818
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909033822
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033825
+0 Notification handle = 0x002d value: 03 01 3d 
+1383909033950
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033952
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909033955
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033958
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909033961
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909034090
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909034093
+0 
+1383909034097
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034099
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909034159
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034161
+0 Notification handle = 0x0057 value: 4f fe 00 00 00 00 
+1383909034231
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034235
+0 Characteristic value/descriptor: 08 02 20 86 
+1383909034239
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909034241
+0 Counter : 6
+1383909034244
+0 char-write-req 0x4F 02
+1383909034367
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909034369
+0 
+1383909034370
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034372
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909034509
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034512
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909034515
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034518
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034520
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909034522
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909034524
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909034649
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909034652
+0 
+1383909034655
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034657
+0 [CON][BC:6A:29:AB:25:CD][LE]> ch
+1383909034660
+0 Notification handle = 0x0025 value: 17 fe 30 0e 
+1383909034662
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909034719
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034722
+0 Notification handle = 0x0040 value: b5 f6 bf 04 1e f8 
+1383909034789
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034792
+0 Characteristic value/descriptor: 08 02 20 86 
+1383909034796
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909034798
+0 Counter : 7
+1383909034801
+0 
+1383909034803
+0 Notification handle = 0x002d value: 02 06 3c 
+1383909034805
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909034930
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909034933
+0 
+1383909034936
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909034939
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909035069
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035071
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909035076
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035079
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035081
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909035209
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909035211
+0 
+1383909035215
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035218
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909035221
+0 Notification handle = 0x0057 value: 60 fe 00 00 00 00 
+1383909035223
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909035349
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035352
+0 Characteristic value/descriptor: 08 02 23 86 
+1383909035356
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909035358
+0 Counter : 8
+1383909035360
+0 char-write-req 0x4F 02
+1383909035489
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035491
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909035559
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909035562
+0 
+1383909035564
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035566
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909035629
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035632
+0 Notification handle = 0x0025 value: 16 fe 30 0e 
+1383909035699
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035702
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909035704
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035706
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035708
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909035769
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035772
+0 Notification handle = 0x002d value: 03 06 3e 
+1383909035846
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909035849
+0 
+1383909035851
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035853
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909035980
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909035983
+0 Characteristic value/descriptor: 08 02 23 86 
+1383909035988
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909035990
+0 Counter : 9
+1383909035993
+0 char-write-req 0x4F 02
+1383909036119
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909036122
+0 
+1383909036124
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036127
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909036189
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036192
+0 Notification handle = 0x0057 value: 74 fe 00 00 00 00 
+1383909036266
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036269
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909036271
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036273
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036275
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909036399
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909036401
+0 
+1383909036404
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036406
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909036540
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036544
+0 Characteristic value/descriptor: fb 01 23 86 
+1383909036546
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909036548
+0 Counter : 10
+1383909036550
+0 
+1383909036553
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909036555
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909036679
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036681
+0 Notification handle = 0x0025 value: 05 fe 30 0e 
+1383909036683
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909036686
+0 
+1383909036688
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036690
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909036693
+0 Notification handle = 0x0040 value: ae f6 be 04 20 f8 
+1383909036695
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909036820
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036822
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909036824
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036827
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036829
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-
+1383909036831
+0 Notification handle = 0x002d value: 01 06 3f 
+1383909036833
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909036959
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909036961
+0 
+1383909036964
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909036966
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909037099
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037102
+0 Characteristic value/descriptor: fb 01 23 86 
+1383909037104
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909037105
+0 Counter : 11
+1383909037106
+0 char-write-req 0x4F 02
+1383909037169
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037172
+0 Notification handle = 0x0057 value: 8a fe 00 00 00 00 
+1383909037239
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909037242
+0 
+1383909037244
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037247
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909037379
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037382
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909037384
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037386
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037389
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909037526
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909037528
+0 
+1383909037531
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037533
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909037589
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037592
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909037659
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037662
+0 Characteristic value/descriptor: fb 01 21 86 
+1383909037665
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909037667
+0 Counter : 12
+1383909037670
+0 
+1383909037672
+0 Notification handle = 0x0025 value: 13 fe 30 0e 
+1383909037674
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909037799
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909037801
+0 
+1383909037804
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037806
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909037808
+0 Notification handle = 0x002d value: 03 01 44 
+1383909037811
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909037939
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037942
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909037944
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037946
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909037949
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909038079
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909038082
+0 
+1383909038084
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038086
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909038149
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038151
+0 Notification handle = 0x0057 value: 79 fe 00 00 00 00 
+1383909038219
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038222
+0 Characteristic value/descriptor: fb 01 21 86 
+1383909038225
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909038227
+0 Counter : 13
+1383909038230
+0 char-write-req 0x4F 02
+1383909038366
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909038368
+0 
+1383909038371
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038373
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909038499
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038501
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909038504
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038506
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038508
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909038639
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909038641
+0 
+1383909038644
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038646
+0 Notification handle = 0x0038 value: f1 6d f6 67 
+1383909038648
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038651
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-re
+1383909038653
+0 Notification handle = 0x0025 value: 1d fe 30 0e 
+1383909038655
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909038710
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038712
+0 Notification handle = 0x0040 value: b0 f6 b9 04 18 f8 
+1383909038779
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038782
+0 Characteristic value/descriptor: fa 01 21 86 
+1383909038785
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909038787
+0 Counter : 14
+1383909038790
+0 char-write-req 0x4F 02
+1383909038792
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038794
+0 Notification handle = 0x002d value: 00 fe 3c 
+1383909038919
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909038921
+0 
+1383909038924
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909038926
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909039060
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039062
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909039065
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039067
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039069
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909039199
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909039201
+0 
+1383909039203
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039205
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039208
+0 Notification handle = 0x0057 value: 48 fe 00 00 00 00 
+1383909039210
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909039341
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039344
+0 Characteristic value/descriptor: fa 01 21 86 
+1383909039346
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909039347
+0 Counter : 15
+1383909039348
+0 char-write-req 0x4F 02
+1383909039477
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909039480
+0 
+1383909039482
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039484
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909039619
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039622
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909039625
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039627
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039630
+0 [CON][BC:6A:29:AB:25:CD][LE]> char
+1383909039632
+0 Notification handle = 0x0025 value: 1e fe 30 0e 
+1383909039634
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909039688
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039691
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909039760
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909039764
+0 
+1383909039768
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039770
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909039828
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039831
+0 Notification handle = 0x002d value: 02 06 42 
+1383909039900
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909039903
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909039907
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909039909
+0 Counter : 16
+1383909039912
+0 char-write-req 0x4F 02
+1383909040040
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909040042
+0 
+1383909040046
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040048
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909040179
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040182
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909040184
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040187
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040190
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-wri
+1383909040192
+0 Notification handle = 0x0057 value: 72 fe 00 00 00 00 
+1383909040195
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909040319
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909040322
+0 
+1383909040326
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040328
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909040467
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040469
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909040472
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909040474
+0 Counter : 17
+1383909040477
+0 char-write-req 0x4F 02
+1383909040599
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909040602
+0 
+1383909040605
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040607
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909040669
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040671
+0 Notification handle = 0x0025 value: 0f fe 30 0e 
+1383909040674
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040676
+0 Notification handle = 0x0040 value: b2 f6 c0 04 22 f8 
+1383909040740
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040743
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909040747
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040750
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040752
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-writ
+1383909040754
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909040756
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909040809
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040812
+0 Notification handle = 0x002d value: 03 00 3e 
+1383909040886
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909040889
+0 
+1383909040891
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909040893
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909041019
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041024
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909041028
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909041030
+0 Counter : 18
+1383909041032
+0 char-write-req 0x4F 02
+1383909041159
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909041162
+0 
+1383909041164
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041167
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909041170
+0 Notification handle = 0x0057 value: 71 fe 00 00 00 00 
+1383909041173
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909041299
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041302
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909041305
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041307
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041310
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909041439
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909041443
+0 
+1383909041445
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041448
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909041579
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041582
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909041585
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909041587
+0 Counter : 19
+1383909041590
+0 char-write-req 0x4F 02
+1383909041649
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041651
+0 Notification handle = 0x0025 value: 10 fe 30 0e 
+1383909041719
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909041722
+0 
+1383909041725
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041727
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909041788
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041791
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909041793
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041796
+0 Notification handle = 0x002d value: 02 03 3d 
+1383909041859
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041861
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909041864
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041866
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909041869
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909042005
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909042008
+0 
+1383909042011
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042013
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909042139
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042142
+0 Characteristic value/descriptor: fa 01 20 86 
+1383909042143
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909042144
+0 Counter : 20
+1383909042145
+0 char-write-req 0x4F 02
+1383909042209
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042211
+0 Notification handle = 0x0057 value: 74 fe 00 00 00 00 
+1383909042279
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909042282
+0 
+1383909042284
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042286
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909042420
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042422
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909042425
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042427
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042429
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909042559
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909042561
+0 
+1383909042564
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042566
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909042635
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042638
+0 Notification handle = 0x0025 value: 20 fe 30 0e 
+1383909042699
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042702
+0 Characteristic value/descriptor: fa 01 20 86 
+1383909042705
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909042708
+0 Counter : 21
+1383909042710
+0 
+1383909042712
+0 Notification handle = 0x0040 value: b2 f6 c0 04 1b f8 
+1383909042715
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909042769
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042771
+0 Notification handle = 0x002d value: 01 02 43 
+1383909042839
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909042842
+0 
+1383909042844
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042846
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909042848
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909042850
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909042979
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042982
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909042984
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042986
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909042988
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909043119
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909043122
+0 
+1383909043124
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043126
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909043189
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043193
+0 Notification handle = 0x0057 value: 67 fe 00 00 00 00 
+1383909043259
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043262
+0 Characteristic value/descriptor: f7 01 20 86 
+1383909043265
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909043267
+0 Counter : 22
+1383909043269
+0 char-write-req 0x4F 02
+1383909043399
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909043401
+0 
+1383909043404
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043406
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909043539
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043541
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909043544
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043546
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043548
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909043679
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909043681
+0 
+1383909043684
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043686
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-h
+1383909043688
+0 Notification handle = 0x0025 value: 09 fe 30 0e 
+1383909043690
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909043820
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043823
+0 Characteristic value/descriptor: f7 01 20 86 
+1383909043825
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909043827
+0 Counter : 23
+1383909043829
+0 
+1383909043830
+0 Notification handle = 0x002d value: 03 01 41 
+1383909043832
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043834
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909043836
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909043966
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909043968
+0 
+1383909043971
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909043973
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909044100
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044102
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909044104
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044107
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044109
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909044169
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044171
+0 Notification handle = 0x0057 value: 59 fe 00 00 00 00 
+1383909044239
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909044241
+0 
+1383909044243
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044246
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909044381
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044384
+0 Characteristic value/descriptor: f7 01 1f 86 
+1383909044386
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909044387
+0 Counter : 24
+1383909044388
+0 char-write-req 0x4F 02
+1383909044519
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909044521
+0 
+1383909044523
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044526
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909044659
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044661
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909044663
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044666
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044668
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909044670
+0 Notification handle = 0x0025 value: 0e fe 30 0e 
+1383909044672
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909044729
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044731
+0 Notification handle = 0x0040 value: b2 f6 be 04 14 f8 
+1383909044799
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909044801
+0 
+1383909044803
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044806
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909044808
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044810
+0 Notification handle = 0x002d value: 02 01 40 
+1383909044870
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044874
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909044939
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909044942
+0 Characteristic value/descriptor: 05 02 1f 86 
+1383909044944
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909044946
+0 Counter : 25
+1383909044949
+0 char-write-req 0x4F 02
+1383909045079
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909045081
+0 
+1383909045083
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045086
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909045219
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045221
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909045223
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045226
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045228
+0 [CON][BC:6A:29:AB:25:CD][LE]> char
+1383909045230
+0 Notification handle = 0x0057 value: 6e fe 00 00 00 00 
+1383909045232
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909045359
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909045361
+0 
+1383909045364
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045366
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909045499
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045502
+0 Characteristic value/descriptor: 05 02 1f 86 
+1383909045503
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909045505
+0 Counter : 26
+1383909045506
+0 char-write-req 0x4F 02
+1383909045638
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909045641
+0 
+1383909045643
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045646
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-r
+1383909045649
+0 Notification handle = 0x0025 value: 1b fe 30 0e 
+1383909045651
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909045780
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045783
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909045785
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045788
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045791
+0 Notification handle = 0x002d value: 03 01 40 
+1383909045793
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045795
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909045919
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909045921
+0 
+1383909045924
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909045926
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909045929
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909045931
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909046061
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046065
+0 Characteristic value/descriptor: 05 02 21 86 
+1383909046067
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909046070
+0 Counter : 27
+1383909046072
+0 char-write-req 0x4F 02
+1383909046199
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909046201
+0 
+1383909046204
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046207
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909046209
+0 Notification handle = 0x0057 value: 69 fe 00 00 00 00 
+1383909046211
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909046339
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046342
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909046344
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046347
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046350
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909046619
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909046621
+0 
+1383909046623
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046626
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909046628
+0 Notification handle = 0x0025 value: 18 fe 30 0e 
+1383909046630
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909046689
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046691
+0 Notification handle = 0x0040 value: af f6 c1 04 1b f8 
+1383909046759
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046762
+0 Characteristic value/descriptor: 05 02 21 86 
+1383909046764
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909046766
+0 Counter : 28
+1383909046768
+0 char-write-req 0x4F 02
+1383909046836
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046839
+0 Notification handle = 0x002d value: 02 01 42 
+1383909046899
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909046901
+0 
+1383909046904
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046906
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909046969
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909046971
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909047039
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047041
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909047044
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047046
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047049
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909047179
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909047182
+0 
+1383909047184
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047187
+0 [CON][BC:6A:29:AB:25:CD][LE]> ch
+1383909047189
+0 Notification handle = 0x0057 value: 63 fe 00 00 00 00 
+1383909047191
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909047326
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047329
+0 Characteristic value/descriptor: 01 02 21 86 
+1383909047332
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909047334
+0 Counter : 29
+1383909047337
+0 char-write-req 0x4F 02
+1383909047458
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909047462
+0 
+1383909047465
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047467
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909047599
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047602
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909047603
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047604
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047605
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909047669
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047671
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909047739
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909047743
+0 
+1383909047745
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047748
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909047809
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047811
+0 Notification handle = 0x002d value: 02 01 3d 
+1383909047881
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909047885
+0 Characteristic value/descriptor: 01 02 21 86 
+1383909047888
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909047891
+0 Counter : 30
+1383909047894
+0 char-write-req 0x4F 02
+1383909048019
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909048021
+0 
+1383909048025
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048028
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909048030
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048032
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909048160
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048162
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909048165
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048168
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048170
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909048229
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048231
+0 Notification handle = 0x0057 value: 5b fe 00 00 00 00 
+1383909048300
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909048302
+0 
+1383909048307
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048309
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909048440
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048444
+0 Characteristic value/descriptor: 01 02 1e 86 
+1383909048445
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909048446
+0 Counter : 31
+1383909048447
+0 char-write-req 0x4F 02
+1383909048586
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909048588
+0 
+1383909048590
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048593
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909048649
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048651
+0 Notification handle = 0x0025 value: 10 fe 30 0e 
+1383909048719
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048722
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909048725
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048727
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048730
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909048732
+0 Notification handle = 0x0040 value: ab f6 c0 04 19 f8 
+1383909048734
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909048789
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048791
+0 Notification handle = 0x002d value: 02 04 3c 
+1383909048865
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909048868
+0 
+1383909048870
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909048872
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909048999
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049002
+0 Characteristic value/descriptor: 01 02 1e 86 
+1383909049006
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909049007
+0 Counter : 32
+1383909049009
+0 char-write-req 0x4F 02
+1383909049069
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049072
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909049140
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909049143
+0 
+1383909049146
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049149
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909049209
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049211
+0 Notification handle = 0x0057 value: 7c fe 00 00 00 00 
+1383909049279
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049282
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909049284
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049287
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049289
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909049421
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909049424
+0 
+1383909049426
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049427
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909049557
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049559
+0 Characteristic value/descriptor: fc 01 1e 86 
+1383909049560
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909049561
+0 Counter : 33
+1383909049562
+0 char-write-req 0x4F 02
+1383909049627
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049629
+0 Notification handle = 0x0025 value: 12 fe 30 0e 
+1383909049697
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909049698
+0 
+1383909049699
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049701
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909049769
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049771
+0 Notification handle = 0x002d value: 02 06 44 
+1383909049846
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049848
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909049851
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049853
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049855
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909049979
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909049981
+0 
+1383909049984
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909049986
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909050119
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050122
+0 Characteristic value/descriptor: fc 01 1e 86 
+1383909050123
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909050124
+0 Counter : 34
+1383909050125
+0 
+1383909050125
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909050126
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909050195
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050198
+0 Notification handle = 0x0057 value: 7d fe 00 00 00 00 
+1383909050259
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909050262
+0 
+1383909050264
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050266
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909050399
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050401
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909050404
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050406
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050408
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909050539
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909050541
+0 
+1383909050543
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050546
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909050679
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050683
+0 Characteristic value/descriptor: fc 01 21 86 
+1383909050685
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909050687
+0 Counter : 35
+1383909050690
+0 
+1383909050692
+0 Notification handle = 0x0025 value: 09 fe 30 0e 
+1383909050694
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050696
+0 Notification handle = 0x0040 value: ac f6 bb 04 24 f8 
+1383909050698
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909050818
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909050821
+0 
+1383909050823
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050826
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909050828
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050830
+0 Notification handle = 0x002d value: 00 fe 46 
+1383909050959
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050961
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909050963
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050966
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909050968
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909051098
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909051101
+0 
+1383909051103
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051106
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909051169
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051171
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909051176
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051178
+0 Notification handle = 0x0057 value: 85 fe 00 00 00 00 
+1383909051240
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051243
+0 Characteristic value/descriptor: fc 01 21 86 
+1383909051245
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909051248
+0 Counter : 36
+1383909051250
+0 char-write-req 0x4F 02
+1383909051379
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909051381
+0 
+1383909051384
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051386
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909051519
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051521
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909051523
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051526
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051528
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909051659
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909051662
+0 
+1383909051664
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051666
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909051669
+0 Notification handle = 0x0025 value: 10 fe 30 0e 
+1383909051671
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909051799
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051802
+0 Characteristic value/descriptor: f0 01 21 86 
+1383909051804
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909051807
+0 Counter : 37
+1383909051809
+0 
+1383909051811
+0 Notification handle = 0x002d value: 03 00 3d 
+1383909051813
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909051939
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909051941
+0 
+1383909051944
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909051946
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909052148
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052151
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909052154
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052156
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052158
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909052160
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909052163
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909052226
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052229
+0 Notification handle = 0x0057 value: 7a fe 00 00 00 00 
+1383909052290
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909052292
+0 
+1383909052295
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052299
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909052429
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052431
+0 Characteristic value/descriptor: f0 01 21 86 
+1383909052435
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909052437
+0 Counter : 38
+1383909052440
+0 char-write-req 0x4F 02
+1383909052576
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909052578
+0 
+1383909052580
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052583
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909052639
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052642
+0 Notification handle = 0x0025 value: 1e fe 30 0e 
+1383909052709
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052711
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909052714
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052716
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052718
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052720
+0 Notification handle = 0x0040 value: ad f6 c0 04 19 f8 
+1383909052722
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909052779
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052781
+0 Notification handle = 0x002d value: 01 03 47 
+1383909052849
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909052852
+0 
+1383909052854
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052856
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909052989
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909052991
+0 Characteristic value/descriptor: f0 01 1f 86 
+1383909052994
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909052996
+0 Counter : 39
+1383909052998
+0 char-write-req 0x4F 02
+1383909053129
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909053132
+0 
+1383909053134
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053137
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909053202
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053204
+0 Notification handle = 0x0057 value: 5e fe 00 00 00 00 
+1383909053207
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053209
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909053269
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053271
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909053274
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053276
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053278
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909053409
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909053412
+0 
+1383909053414
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053416
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909053549
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053552
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909053554
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909053556
+0 Counter : 40
+1383909053558
+0 char-write-req 0x4F 02
+1383909053688
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053692
+0 Notification handle = 0x0025 value: 0e fe 30 0e 
+1383909053694
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909053696
+0 
+1383909053698
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053700
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909053829
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053832
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909053835
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053837
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053839
+0 [CON][BC:6A:29:AB:25:CD][LE]> char
+1383909053842
+0 Notification handle = 0x002d value: 01 00 45 
+1383909053844
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909053969
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909053971
+0 
+1383909053973
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909053976
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909054109
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054113
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909054116
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909054118
+0 Counter : 41
+1383909054120
+0 char-write-req 0x4F 02
+1383909054179
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054181
+0 Notification handle = 0x0057 value: 53 fe 00 00 00 00 
+1383909054249
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909054251
+0 
+1383909054254
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054256
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909054258
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909054260
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909054388
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054391
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909054394
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054396
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054398
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909054527
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909054528
+0 
+1383909054529
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054530
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909054739
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054742
+0 Characteristic value/descriptor: f1 01 23 86 
+1383909054744
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909054745
+0 Counter : 42
+1383909054746
+0 
+1383909054747
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909054749
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054751
+0 Notification handle = 0x0040 value: ab f6 be 04 29 f8 
+1383909054753
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909054815
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054817
+0 Notification handle = 0x002d value: 00 fd 3e 
+1383909054880
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909054883
+0 
+1383909054886
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909054888
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909055019
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055022
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909055025
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055028
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055030
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909055159
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909055162
+0 
+1383909055165
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055168
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909055229
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055232
+0 Notification handle = 0x0057 value: 7c fe 00 00 00 00 
+1383909055299
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055304
+0 Characteristic value/descriptor: f1 01 23 86 
+1383909055308
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909055310
+0 Counter : 43
+1383909055312
+0 char-write-req 0x4F 02
+1383909055315
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055317
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909055439
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909055444
+0 
+1383909055447
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055450
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909055579
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055582
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909055584
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055587
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055589
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909055655
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055657
+0 Notification handle = 0x0025 value: 21 fe 30 0e 
+1383909055719
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909055722
+0 
+1383909055725
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055728
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909055788
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055791
+0 Notification handle = 0x002d value: 02 05 3d 
+1383909055859
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909055862
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909055864
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909055868
+0 Counter : 44
+1383909055871
+0 char-write-req 0x4F 02
+1383909055999
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909056002
+0 
+1383909056004
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056007
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909056139
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056142
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909056144
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056148
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056150
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909056209
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056211
+0 Notification handle = 0x0057 value: 72 fe 00 00 00 00 
+1383909056278
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909056282
+0 
+1383909056284
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056286
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909056348
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056351
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909056419
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056422
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909056423
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909056424
+0 Counter : 45
+1383909056425
+0 char-write-req 0x4F 02
+1383909056559
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909056561
+0 
+1383909056564
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056566
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909056630
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056633
+0 Notification handle = 0x0025 value: 06 fe 30 0e 
+1383909056699
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056701
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909056703
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056706
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056708
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056710
+0 Notification handle = 0x0040 value: ab f6 b6 04 1c f8 
+1383909056712
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909056768
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056771
+0 Notification handle = 0x002d value: 02 03 3c 
+1383909056846
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909056848
+0 
+1383909056850
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056853
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909056977
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909056978
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909056980
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909056981
+0 Counter : 46
+1383909056982
+0 char-write-req 0x4F 02
+1383909057119
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909057122
+0 
+1383909057124
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057126
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909057189
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057192
+0 Notification handle = 0x0057 value: 68 fe 00 00 00 00 
+1383909057259
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057262
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909057264
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057267
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057269
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909057399
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909057401
+0 
+1383909057404
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057406
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909057408
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909057410
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909057538
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057541
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909057543
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909057545
+0 Counter : 47
+1383909057548
+0 char-write-req 0x4F 02
+1383909057679
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909057681
+0 
+1383909057683
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057686
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057688
+0 Notification handle = 0x0025 value: 0e fe 2c 0e 
+1383909057690
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909057819
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057821
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909057824
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057826
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057828
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909057830
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057832
+0 Notification handle = 0x002d value: 04 06 44 
+1383909057960
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909057964
+0 
+1383909057966
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909057969
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909058106
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058109
+0 Characteristic value/descriptor: f6 01 23 86 
+1383909058111
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909058113
+0 Counter : 48
+1383909058116
+0 char-write-req 0x4F 02
+1383909058169
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058171
+0 Notification handle = 0x0057 value: 53 fe 00 00 00 00 
+1383909058239
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909058242
+0 
+1383909058244
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058247
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909058379
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058382
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909058384
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058387
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058389
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909058449
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058451
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909058521
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909058522
+0 
+1383909058523
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058525
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909058659
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058661
+0 Characteristic value/descriptor: f6 01 23 86 
+1383909058665
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909058668
+0 Counter : 49
+1383909058670
+0 
+1383909058672
+0 Notification handle = 0x0025 value: 17 fe 2c 0e 
+1383909058674
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909058729
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058731
+0 Notification handle = 0x0040 value: b3 f6 bc 04 1c f8 
+1383909058799
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909058801
+0 
+1383909058805
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058807
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058810
+0 Notification handle = 0x002d value: 04 01 41 
+1383909058812
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909058939
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058941
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909058944
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058946
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909058949
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909059079
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909059084
+0 
+1383909059087
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059090
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909059218
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059222
+0 Characteristic value/descriptor: f6 01 22 86 
+1383909059225
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909059228
+0 Counter : 50
+1383909059230
+0 
+1383909059232
+0 Notification handle = 0x0057 value: 51 fe 00 00 00 00 
+1383909059234
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909059359
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909059361
+0 
+1383909059364
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059366
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909059501
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059503
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909059506
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059507
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909059508
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059509
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059510
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909059639
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909059642
+0 
+1383909059644
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059646
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-rea
+1383909059649
+0 Notification handle = 0x0025 value: 23 fe 2c 0e 
+1383909059652
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909059779
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059782
+0 Characteristic value/descriptor: f6 01 22 86 
+1383909059786
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909059789
+0 Counter : 51
+1383909059792
+0 
+1383909059794
+0 Notification handle = 0x002d value: 02 00 44 
+1383909059796
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909059920
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909059922
+0 
+1383909059925
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909059928
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909060059
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060061
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909060064
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060066
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060068
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909060268
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909060271
+0 
+1383909060274
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060276
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060278
+0 Notification handle = 0x0057 value: 83 fe 00 00 00 00 
+1383909060281
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909060408
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060412
+0 Characteristic value/descriptor: f1 01 22 86 
+1383909060415
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909060417
+0 Counter : 52
+1383909060419
+0 char-write-req 0x4F 02
+1383909060479
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060481
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909060549
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909060551
+0 
+1383909060553
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060556
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909060689
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060691
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909060693
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060696
+0 Notification handle = 0x0025 value: 11 fe 2c 0e 
+1383909060698
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060700
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060702
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-
+1383909060705
+0 Notification handle = 0x0040 value: b0 f6 c1 04 18 f8 
+1383909060707
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909060828
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909060831
+0 
+1383909060833
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060835
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909060838
+0 Notification handle = 0x002d value: 01 06 3d 
+1383909060840
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909060969
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909060973
+0 Characteristic value/descriptor: f1 01 22 86 
+1383909060975
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909060977
+0 Counter : 53
+1383909060979
+0 char-write-req 0x4F 02
+1383909061115
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909061117
+0 
+1383909061119
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061121
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909061178
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061181
+0 Notification handle = 0x0057 value: 83 fe 00 00 00 00 
+1383909061249
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061251
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909061253
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061256
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061258
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909061389
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909061392
+0 
+1383909061394
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061396
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909061529
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061533
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909061535
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909061537
+0 Counter : 54
+1383909061539
+0 
+1383909061542
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909061544
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909061668
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909061672
+0 
+1383909061674
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061677
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061679
+0 Notification handle = 0x0025 value: 0b fe 2c 0e 
+1383909061681
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909061809
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061812
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909061815
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061817
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061819
+0 [CON][BC:6A:29:AB:25:CD][LE]> ch
+1383909061822
+0 Notification handle = 0x002d value: 02 05 45 
+1383909061824
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909061949
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909061951
+0 
+1383909061953
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909061956
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909062088
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062092
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909062095
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909062097
+0 Counter : 55
+1383909062099
+0 char-write-req 0x4F 02
+1383909062228
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909062231
+0 
+1383909062234
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062237
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909062240
+0 Notification handle = 0x0057 value: 87 fe 00 00 00 00 
+1383909062242
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909062375
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062378
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909062380
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062382
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062384
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909062509
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909062514
+0 
+1383909062517
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062520
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909062578
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062581
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909062649
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062652
+0 Characteristic value/descriptor: f4 01 1f 86 
+1383909062654
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909062655
+0 Counter : 56
+1383909062657
+0 
+1383909062658
+0 Notification handle = 0x0025 value: 1e fe 2c 0e 
+1383909062660
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909062718
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062721
+0 Notification handle = 0x0040 value: b1 f6 c0 04 1b f8 
+1383909062789
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909062792
+0 
+1383909062794
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062796
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909062797
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062797
+0 Notification handle = 0x002d value: 00 fd 3e 
+1383909062928
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062931
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909062934
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062937
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909062939
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909063069
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909063071
+0 
+1383909063073
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063076
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909063209
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063212
+0 Characteristic value/descriptor: f4 01 1f 86 
+1383909063215
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909063217
+0 Counter : 57
+1383909063220
+0 
+1383909063222
+0 Notification handle = 0x0057 value: 54 fe 00 00 00 00 
+1383909063224
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909063348
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909063351
+0 
+1383909063353
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063356
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909063489
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063491
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909063494
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063496
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063499
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909063629
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909063632
+0 
+1383909063635
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063637
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909063639
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063641
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909063698
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063701
+0 Notification handle = 0x0025 value: 1e fe 2c 0e 
+1383909063770
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063776
+0 Characteristic value/descriptor: f4 01 22 86 
+1383909063779
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909063782
+0 Counter : 58
+1383909063785
+0 char-write-req 0x4F 02
+1383909063838
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063842
+0 Notification handle = 0x002d value: 02 02 43 
+1383909063916
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909063918
+0 
+1383909063921
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909063923
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909064049
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064052
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909064054
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064056
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064057
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909064189
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909064192
+0 
+1383909064196
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064198
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-r
+1383909064200
+0 Notification handle = 0x0057 value: 56 fe 00 00 00 00 
+1383909064202
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909064337
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064340
+0 Characteristic value/descriptor: f4 01 22 86 
+1383909064343
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909064345
+0 Counter : 59
+1383909064347
+0 char-write-req 0x4F 02
+1383909064469
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909064472
+0 
+1383909064475
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064478
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909064610
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064613
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909064617
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064618
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064619
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909064677
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064679
+0 Notification handle = 0x0025 value: 14 fe 2c 0e 
+1383909064680
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064681
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909064682
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064683
+0 Notification handle = 0x0040 value: b4 f6 bf 04 17 f8 
+1383909064747
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909064748
+0 
+1383909064749
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064751
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909064818
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064821
+0 Notification handle = 0x002d value: 03 02 40 
+1383909064888
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909064892
+0 Characteristic value/descriptor: f4 01 22 86 
+1383909064897
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909064899
+0 Counter : 60
+1383909064902
+0 char-write-req 0x4F 02
+1383909065028
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909065031
+0 
+1383909065034
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065036
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909065168
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065171
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909065174
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065176
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065179
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909065238
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065241
+0 Notification handle = 0x0057 value: 77 fe 00 00 00 00 
+1383909065308
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909065312
+0 
+1383909065314
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065317
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909065450
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065454
+0 Characteristic value/descriptor: f4 01 21 86 
+1383909065457
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909065460
+0 Counter : 61
+1383909065462
+0 char-write-req 0x4F 02
+1383909065588
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909065592
+0 
+1383909065594
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065597
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909065658
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065661
+0 Notification handle = 0x0025 value: 1c fe 2c 0e 
+1383909065799
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065801
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909065804
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065806
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065808
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909065811
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065813
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F
+1383909065815
+0 Notification handle = 0x002d value: ff ff 3e 
+1383909065817
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909065946
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909065948
+0 
+1383909065950
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909065952
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909066080
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066084
+0 Characteristic value/descriptor: f4 01 21 86 
+1383909066086
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909066088
+0 Counter : 62
+1383909066090
+0 char-write-req 0x4F 02
+1383909066218
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909066221
+0 
+1383909066223
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066225
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909066228
+0 Notification handle = 0x0057 value: 91 fe 00 00 00 00 
+1383909066230
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909066365
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066367
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909066370
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066372
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066374
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909066498
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909066501
+0 
+1383909066503
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066505
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909066639
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066642
+0 Characteristic value/descriptor: ec 01 21 86 
+1383909066644
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909066646
+0 Counter : 63
+1383909066649
+0 
+1383909066651
+0 Notification handle = 0x0025 value: 1a fe 2c 0e 
+1383909066653
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909066708
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066711
+0 Notification handle = 0x0040 value: b2 f6 bd 04 21 f8 
+1383909066778
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909066781
+0 
+1383909066783
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066785
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066787
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909066790
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909066792
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066794
+0 Notification handle = 0x002d value: 02 04 3e 
+1383909066918
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066921
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909066923
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066925
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909066928
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909067058
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909067061
+0 
+1383909067063
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067065
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909067199
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067202
+0 Characteristic value/descriptor: ec 01 21 86 
+1383909067205
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909067207
+0 Counter : 64
+1383909067210
+0 
+1383909067212
+0 Notification handle = 0x0057 value: 81 fe 00 00 00 00 
+1383909067214
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909067339
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909067341
+0 
+1383909067344
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067347
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909067479
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067482
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909067486
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067488
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067491
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909067618
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909067621
+0 
+1383909067623
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067625
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909067688
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067691
+0 Notification handle = 0x0025 value: 20 fe 2c 0e 
+1383909067760
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067763
+0 Characteristic value/descriptor: ec 01 22 86 
+1383909067765
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909067768
+0 Counter : 65
+1383909067770
+0 
+1383909067772
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909067774
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909067828
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067834
+0 Notification handle = 0x002d value: 02 01 41 
+1383909067899
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909067902
+0 
+1383909067904
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909067906
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909068039
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068042
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909068044
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068046
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068048
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909068178
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909068181
+0 
+1383909068183
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068186
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909068188
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068190
+0 Notification handle = 0x0057 value: 6a fe 00 00 00 00 
+1383909068319
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068322
+0 Characteristic value/descriptor: ec 01 22 86 
+1383909068325
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909068327
+0 Counter : 66
+1383909068329
+0 char-write-req 0x4F 02
+1383909068459
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909068461
+0 
+1383909068464
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068466
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909068599
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068601
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909068603
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068606
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068608
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909068676
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068678
+0 Notification handle = 0x0025 value: 26 fe 2c 0e 
+1383909068739
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909068742
+0 
+1383909068745
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068748
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-rea
+1383909068750
+0 Notification handle = 0x0040 value: b0 f6 bb 04 19 f8 
+1383909068752
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909068809
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068812
+0 Notification handle = 0x002d value: 00 ff 3d 
+1383909068814
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068816
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909068879
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909068881
+0 Characteristic value/descriptor: eb 01 22 86 
+1383909068884
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909068888
+0 Counter : 67
+1383909068891
+0 char-write-req 0x4F 02
+1383909069018
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909069024
+0 
+1383909069026
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069029
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909069165
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069167
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909069170
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069172
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069174
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909069228
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069231
+0 Notification handle = 0x0057 value: 8c fe 00 00 00 00 
+1383909069299
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909069303
+0 
+1383909069306
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069308
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909069440
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069444
+0 Characteristic value/descriptor: eb 01 22 86 
+1383909069447
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909069449
+0 Counter : 68
+1383909069451
+0 char-write-req 0x4F 02
+1383909069585
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909069588
+0 
+1383909069590
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069592
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909069650
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069653
+0 Notification handle = 0x0025 value: 2b fe 2c 0e 
+1383909069718
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069719
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909069720
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069721
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069722
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909069787
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069789
+0 Notification handle = 0x002d value: 02 04 40 
+1383909069859
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909069862
+0 
+1383909069865
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069867
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909069870
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909069872
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909070006
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070009
+0 Characteristic value/descriptor: eb 01 24 86 
+1383909070011
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909070013
+0 Counter : 69
+1383909070015
+0 char-write-req 0x4F 02
+1383909070142
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909070145
+0 
+1383909070148
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070150
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909070209
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070211
+0 Notification handle = 0x0057 value: 8e fe 00 00 00 00 
+1383909070279
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070282
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909070284
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070286
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070288
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909070418
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909070421
+0 
+1383909070424
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070426
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909070559
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070561
+0 Characteristic value/descriptor: eb 01 24 86 
+1383909070564
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909070566
+0 Counter : 70
+1383909070568
+0 char-write-req 0x4F 02
+1383909070698
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909070701
+0 
+1383909070703
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070706
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070708
+0 Notification handle = 0x0025 value: 17 fe 2c 0e 
+1383909070710
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-h
+1383909070712
+0 Notification handle = 0x0040 value: ab f6 ba 04 1f f8 
+1383909070714
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909070838
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070842
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909070844
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070846
+0 Notification handle = 0x002d value: 02 02 47 
+1383909070849
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070851
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070853
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909070908
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070911
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909070979
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909070981
+0 
+1383909070983
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909070985
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909071119
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071122
+0 Characteristic value/descriptor: e7 01 24 86 
+1383909071125
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909071127
+0 Counter : 71
+1383909071130
+0 char-write-req 0x4F 02
+1383909071195
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071197
+0 Notification handle = 0x0057 value: 59 fe 00 00 00 00 
+1383909071328
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909071331
+0 
+1383909071333
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071335
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909071469
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071471
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909071473
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071476
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071478
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909071616
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909071618
+0 
+1383909071620
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071623
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909071678
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071681
+0 Notification handle = 0x0025 value: 24 fe 2c 0e 
+1383909071749
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071752
+0 Characteristic value/descriptor: e7 01 24 86 
+1383909071754
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909071756
+0 Counter : 72
+1383909071759
+0 char-write-req 0x4F 02
+1383909071818
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071821
+0 Notification handle = 0x002d value: 01 00 3c 
+1383909071888
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909071891
+0 
+1383909071893
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071895
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909071965
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909071968
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909072028
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072031
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909072033
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072035
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072038
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909072168
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909072171
+0 
+1383909072174
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072176
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909072239
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072241
+0 Notification handle = 0x0057 value: 54 fe 00 00 00 00 
+1383909072309
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072313
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909072315
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909072317
+0 Counter : 73
+1383909072319
+0 char-write-req 0x4F 02
+1383909072448
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909072450
+0 
+1383909072453
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072455
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909072589
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072591
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909072594
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072596
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072598
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909072728
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072731
+0 Notification handle = 0x0025 value: 19 fe 2c 0e 
+1383909072733
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909072735
+0 
+1383909072738
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072740
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909072742
+0 Notification handle = 0x0040 value: b4 f6 c0 04 1e f8 
+1383909072744
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909072798
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072801
+0 Notification handle = 0x002d value: 03 06 3f 
+1383909072940
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909072943
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909072946
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909072949
+0 Counter : 74
+1383909072951
+0 char-write-req 0x4F 02
+1383909073009
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073011
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909073079
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909073084
+0 
+1383909073087
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073090
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909073219
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073221
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909073224
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073227
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073230
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-
+1383909073232
+0 Notification handle = 0x0057 value: 73 fe 00 00 00 00 
+1383909073234
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909073358
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909073361
+0 
+1383909073363
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073366
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909073500
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073502
+0 Characteristic value/descriptor: eb 01 23 86 
+1383909073505
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909073508
+0 Counter : 75
+1383909073510
+0 char-write-req 0x4F 02
+1383909073638
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909073641
+0 
+1383909073643
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073646
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-
+1383909073648
+0 Notification handle = 0x0025 value: 1c fe 28 0e 
+1383909073651
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909073778
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073781
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909073784
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073787
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073790
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-wri
+1383909073792
+0 Notification handle = 0x002d value: 00 ff 3d 
+1383909073794
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909073919
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909073921
+0 
+1383909073924
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909073927
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909074061
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074065
+0 Characteristic value/descriptor: eb 01 23 86 
+1383909074068
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909074070
+0 Counter : 76
+1383909074072
+0 
+1383909074074
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909074077
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909074200
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909074202
+0 
+1383909074206
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074207
+0 Notification handle = 0x0057 value: 81 fe 00 00 00 00 
+1383909074208
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074209
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909074338
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074341
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909074343
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074346
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074349
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909074478
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909074482
+0 
+1383909074484
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074487
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909074619
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074621
+0 Characteristic value/descriptor: eb 01 23 86 
+1383909074625
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909074627
+0 Counter : 77
+1383909074630
+0 char-write-req 0x4F 02
+1383909074688
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074691
+0 Notification handle = 0x0025 value: 21 fe 28 0e 
+1383909074695
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074697
+0 Notification handle = 0x0040 value: ae f6 be 04 21 f8 
+1383909074757
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909074759
+0 
+1383909074760
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074761
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909074826
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074828
+0 Notification handle = 0x002d value: 02 03 3d 
+1383909074899
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074901
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909074902
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074903
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909074905
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909075037
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909075039
+0 
+1383909075042
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075044
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909075108
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075111
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909075180
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075182
+0 Characteristic value/descriptor: e0 01 23 86 
+1383909075186
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909075188
+0 Counter : 78
+1383909075191
+0 char-write-req 0x4F 02
+1383909075248
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075251
+0 Notification handle = 0x0057 value: 98 fe 00 00 00 00 
+1383909075318
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909075323
+0 
+1383909075326
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075329
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909075465
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075468
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909075470
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075472
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075474
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909075599
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909075602
+0 
+1383909075604
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075607
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909075668
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075671
+0 Notification handle = 0x0025 value: 1a fe 28 0e 
+1383909075739
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075744
+0 Characteristic value/descriptor: e0 01 23 86 
+1383909075746
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909075749
+0 Counter : 79
+1383909075751
+0 char-write-req 0x4F 02
+1383909075808
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075811
+0 Notification handle = 0x002d value: 02 05 3f 
+1383909075885
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909075889
+0 
+1383909075891
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909075893
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909076018
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076022
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909076024
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076027
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076029
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909076088
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076091
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909076159
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909076162
+0 
+1383909076164
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076167
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909076229
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076232
+0 Notification handle = 0x0057 value: 60 fe 00 00 00 00 
+1383909076306
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076309
+0 Characteristic value/descriptor: e0 01 25 86 
+1383909076312
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909076314
+0 Counter : 80
+1383909076316
+0 char-write-req 0x4F 02
+1383909076438
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909076442
+0 
+1383909076444
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076447
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909076578
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076581
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909076582
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076584
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076585
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909076649
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076651
+0 Notification handle = 0x0025 value: 1b fe 28 0e 
+1383909076718
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909076721
+0 
+1383909076723
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076726
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909076728
+0 Notification handle = 0x0040 value: b1 f6 be 04 18 f8 
+1383909076731
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909076858
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076861
+0 Notification handle = 0x002d value: 02 03 3e 
+1383909076936
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909076939
+0 Characteristic value/descriptor: e0 01 25 86 
+1383909076941
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909076944
+0 Counter : 81
+1383909076946
+0 char-write-req 0x4F 02
+1383909077068
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909077074
+0 
+1383909077076
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077079
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909077138
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077141
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909077208
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077211
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909077213
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077216
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077219
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write
+1383909077221
+0 Notification handle = 0x0057 value: 88 fe 00 00 00 00 
+1383909077223
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909077349
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909077353
+0 
+1383909077355
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077358
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909077489
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077492
+0 Characteristic value/descriptor: d9 01 25 86 
+1383909077495
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909077497
+0 Counter : 82
+1383909077498
+0 char-write-req 0x4F 02
+1383909077629
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909077632
+0 
+1383909077635
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077638
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909077698
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077701
+0 Notification handle = 0x0025 value: 27 fe 28 0e 
+1383909077769
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077772
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909077775
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077779
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077781
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909077845
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077847
+0 Notification handle = 0x002d value: 01 02 3e 
+1383909077909
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909077912
+0 
+1383909077915
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909077918
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909078049
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078052
+0 Characteristic value/descriptor: d9 01 25 86 
+1383909078055
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909078058
+0 Counter : 83
+1383909078060
+0 char-write-req 0x4F 02
+1383909078188
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909078190
+0 
+1383909078192
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078193
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909078194
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078195
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909078197
+0 Notification handle = 0x0057 value: 68 fe 00 00 00 00 
+1383909078198
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909078335
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078337
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909078340
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078342
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078344
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909078468
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909078471
+0 
+1383909078473
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078475
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909078608
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078611
+0 Characteristic value/descriptor: d9 01 24 86 
+1383909078613
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909078615
+0 Counter : 84
+1383909078618
+0 char-write-req 0x4F 02
+1383909078678
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078681
+0 Notification handle = 0x0025 value: 1e fe 28 0e 
+1383909078683
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078686
+0 Notification handle = 0x0040 value: b1 f6 bd 04 1b f8 
+1383909078755
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909078757
+0 
+1383909078760
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078762
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909078818
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078820
+0 Notification handle = 0x002d value: 02 06 3f 
+1383909078890
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078894
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909078898
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078901
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909078903
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909079029
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909079032
+0 
+1383909079034
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079037
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909079169
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079173
+0 Characteristic value/descriptor: d9 01 24 86 
+1383909079177
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909079179
+0 Counter : 85
+1383909079182
+0 char-write-req 0x4F 02
+1383909079238
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079241
+0 Notification handle = 0x0057 value: 61 fe 00 00 00 00 
+1383909079243
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079246
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909079308
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909079311
+0 
+1383909079313
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079316
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909079448
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079451
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909079452
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079453
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079455
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909079589
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909079592
+0 
+1383909079594
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079597
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909079658
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079660
+0 Notification handle = 0x0025 value: 24 fe 28 0e 
+1383909079732
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079735
+0 Characteristic value/descriptor: e3 01 24 86 
+1383909079739
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909079742
+0 Counter : 86
+1383909079744
+0 char-write-req 0x4F 02
+1383909079803
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079804
+0 Notification handle = 0x002d value: 00 01 3d 
+1383909079867
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909079871
+0 
+1383909079873
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909079876
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909080009
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080013
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909080016
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080018
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080021
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909080148
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909080151
+0 
+1383909080154
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080157
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909080218
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080221
+0 Notification handle = 0x0057 value: 5a fe 00 00 00 00 
+1383909080289
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080290
+0 Characteristic value/descriptor: e3 01 24 86 
+1383909080293
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909080294
+0 Counter : 87
+1383909080296
+0 
+1383909080297
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909080298
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909080429
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909080432
+0 
+1383909080435
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080437
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909080569
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080572
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909080575
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080578
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080580
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909080708
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080711
+0 Notification handle = 0x0025 value: 19 fe 28 0e 
+1383909080713
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909080716
+0 
+1383909080719
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080721
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4
+1383909080723
+0 Notification handle = 0x0040 value: af f6 c0 04 26 f8 
+1383909080725
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909080849
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080852
+0 Notification handle = 0x002d value: 02 06 3d 
+1383909080855
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080858
+0 Characteristic value/descriptor: e3 01 23 86 
+1383909080860
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909080863
+0 Counter : 88
+1383909080865
+0 char-write-req 0x4F 02
+1383909080988
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909080991
+0 
+1383909080993
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909080996
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909081128
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081131
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909081132
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081134
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081135
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909081198
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081201
+0 Notification handle = 0x0057 value: 75 fe 00 00 00 00 
+1383909081268
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909081271
+0 
+1383909081273
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081276
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909081338
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081341
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909081414
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081417
+0 Characteristic value/descriptor: e3 01 23 86 
+1383909081419
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909081421
+0 Counter : 89
+1383909081424
+0 char-write-req 0x4F 02
+1383909081548
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909081551
+0 
+1383909081553
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081555
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909081688
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081691
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909081693
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081696
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081698
+0 [CON][BC:6A:29:AB:25:CD][LE]> cha
+1383909081700
+0 Notification handle = 0x0025 value: 19 fe 28 0e 
+1383909081702
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909081828
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909081832
+0 
+1383909081834
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081836
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909081839
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081841
+0 Notification handle = 0x002d value: 02 06 3d 
+1383909081968
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909081971
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909081973
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909081975
+0 Counter : 90
+1383909081977
+0 char-write-req 0x4F 02
+1383909082108
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909082111
+0 
+1383909082113
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082115
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909082249
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082251
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909082254
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082256
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082258
+0 Notification handle = 0x0057 value: 72 fe 00 00 00 00 
+1383909082260
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082262
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909082389
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082390
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909082459
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909082461
+0 
+1383909082464
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082466
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909082598
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082601
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909082603
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909082605
+0 Counter : 91
+1383909082607
+0 char-write-req 0x4F 02
+1383909082668
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082671
+0 Notification handle = 0x0025 value: 41 fe 28 0e 
+1383909082738
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909082741
+0 
+1383909082743
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082745
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909082748
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082750
+0 Notification handle = 0x0040 value: ad f6 be 04 1a f8 
+1383909082808
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082810
+0 Notification handle = 0x002d value: 02 02 3d 
+1383909082879
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082882
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909082884
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082886
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909082888
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909083018
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909083021
+0 
+1383909083023
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083025
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909083165
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083168
+0 Characteristic value/descriptor: e7 01 26 86 
+1383909083170
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909083172
+0 Counter : 92
+1383909083175
+0 char-write-req 0x4F 02
+1383909083228
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083231
+0 Notification handle = 0x0057 value: 50 fe 00 00 00 00 
+1383909083298
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909083301
+0 
+1383909083304
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083306
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909083438
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083441
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909083443
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083445
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909083448
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083450
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083452
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909083578
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909083581
+0 
+1383909083583
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083585
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909083648
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083651
+0 Notification handle = 0x0025 value: 1b fe 28 0e 
+1383909083718
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083721
+0 Characteristic value/descriptor: e7 01 26 86 
+1383909083725
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909083727
+0 Counter : 93
+1383909083729
+0 char-write-req 0x4F 02
+1383909083788
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083791
+0 Notification handle = 0x002d value: 01 01 3e 
+1383909083858
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909083861
+0 
+1383909083863
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909083866
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909083998
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084001
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909084003
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084006
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084008
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909084138
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909084141
+0 
+1383909084143
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084146
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909084208
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084211
+0 Notification handle = 0x0057 value: 5a fe 00 00 00 00 
+1383909084279
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084283
+0 Characteristic value/descriptor: d9 01 26 86 
+1383909084285
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909084287
+0 Counter : 94
+1383909084290
+0 char-write-req 0x4F 02
+1383909084419
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909084421
+0 
+1383909084423
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084426
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909084428
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909084430
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909084558
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084561
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909084563
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084565
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084568
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909084698
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909084701
+0 
+1383909084703
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084705
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909084708
+0 Notification handle = 0x0025 value: 1c fe 28 0e 
+1383909084710
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 
+1383909084712
+0 Notification handle = 0x0040 value: ae f6 ba 04 1d f8 
+1383909084714
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909084837
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084839
+0 Characteristic value/descriptor: d9 01 26 86 
+1383909084841
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909084842
+0 Counter : 95
+1383909084844
+0 char-write-req 0x4F 02
+1383909084845
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084846
+0 Notification handle = 0x002d value: 02 03 3e 
+1383909084978
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909084981
+0 
+1383909084983
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909084985
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909085119
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085122
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909085125
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085127
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085129
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909085258
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909085260
+0 
+1383909085263
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085265
+0 [CON][BC:6A:29:AB:25:CD][LE]> char
+1383909085267
+0 Notification handle = 0x0057 value: 86 fe 00 00 00 00 
+1383909085270
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909085398
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085402
+0 Characteristic value/descriptor: d9 01 28 86 
+1383909085403
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909085405
+0 Counter : 96
+1383909085407
+0 char-write-req 0x4F 02
+1383909085468
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085471
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909085545
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909085548
+0 
+1383909085550
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085552
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909085678
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085681
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909085683
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085685
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085688
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909085690
+0 Notification handle = 0x0025 value: 1e fe 24 0e 
+1383909085692
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909085818
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909085820
+0 
+1383909085823
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085825
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909085828
+0 Notification handle = 0x002d value: 01 01 3e 
+1383909085830
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909085958
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909085960
+0 Characteristic value/descriptor: d9 01 28 86 
+1383909085963
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909085965
+0 Counter : 97
+1383909085968
+0 char-write-req 0x4F 02
+1383909086098
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909086100
+0 
+1383909086103
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086105
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909086238
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086240
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909086243
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086245
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086247
+0 [CON][BC:6A:29:AB:25:CD][LE]> ch
+1383909086250
+0 Notification handle = 0x0057 value: 6a fe 00 00 00 00 
+1383909086252
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909086378
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909086382
+0 
+1383909086384
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086387
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909086518
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086521
+0 Characteristic value/descriptor: da 01 28 86 
+1383909086523
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909086525
+0 Counter : 98
+1383909086528
+0 
+1383909086530
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909086532
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909086659
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909086661
+0 
+1383909086664
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086666
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909086668
+0 Notification handle = 0x0025 value: 26 fe 24 0e 
+1383909086670
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909086728
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086731
+0 Notification handle = 0x0040 value: ae f6 bf 04 27 f8 
+1383909086799
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086802
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909086804
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086806
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086808
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086811
+0 Notification handle = 0x002d value: 00 00 3b 
+1383909086813
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909086938
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909086941
+0 
+1383909086943
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909086945
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909087078
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087081
+0 Characteristic value/descriptor: da 01 25 86 
+1383909087083
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909087085
+0 Counter : 99
+1383909087087
+0 char-write-req 0x4F 02
+1383909087218
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909087221
+0 
+1383909087223
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087225
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909087228
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087230
+0 Notification handle = 0x0057 value: 6e fe 00 00 00 00 
+1383909087359
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087361
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909087364
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087367
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087369
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909087499
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909087502
+0 
+1383909087503
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087504
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909087575
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087578
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909087638
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087642
+0 Characteristic value/descriptor: da 01 25 86 
+1383909087646
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909087649
+0 Counter : 100
+1383909087651
+0 char-write-req 0x4F 02
+1383909087708
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087711
+0 Notification handle = 0x0025 value: 36 fe 24 0e 
+1383909087778
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909087781
+0 
+1383909087784
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087787
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909087918
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087921
+0 Notification handle = 0x002d value: 02 05 3c 
+1383909087988
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087991
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909087994
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087997
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909087999
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909088128
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909088133
+0 
+1383909088135
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088140
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909088198
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088201
+0 Notification handle = 0x0057 value: 5d fe 00 00 00 00 
+1383909088269
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088272
+0 Characteristic value/descriptor: db 01 25 86 
+1383909088274
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909088276
+0 Counter : 101
+1383909088278
+0 char-write-req 0x4F 02
+1383909088408
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909088411
+0 
+1383909088413
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088416
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909088548
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088551
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909088553
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088555
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088558
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909088618
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088620
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909088688
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909088691
+0 
+1383909088693
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088695
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909088697
+0 Notification handle = 0x0025 value: 22 fe 24 0e 
+1383909088700
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read
+1383909088702
+0 Notification handle = 0x0040 value: ae f6 c1 04 26 f8 
+1383909088704
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909088828
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088833
+0 Characteristic value/descriptor: db 01 25 86 
+1383909088835
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909088837
+0 Counter : 102
+1383909088839
+0 
+1383909088842
+0 Notification handle = 0x002d value: 02 06 40 
+1383909088844
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909088975
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909088977
+0 
+1383909088980
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909088982
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909089109
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089111
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909089114
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089116
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089118
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909089249
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909089252
+0 
+1383909089254
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089256
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909089258
+0 Notification handle = 0x0057 value: 5f fe 00 00 00 00 
+1383909089261
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909089395
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089398
+0 Characteristic value/descriptor: db 01 27 86 
+1383909089400
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909089403
+0 Counter : 103
+1383909089405
+0 char-write-req 0x4F 02
+1383909089528
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909089531
+0 
+1383909089533
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089535
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909089669
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089672
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909089674
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089676
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089678
+0 Notification handle = 0x0038 value: ac 6d f7 67 
+1383909089681
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089683
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F
+1383909089685
+0 Notification handle = 0x0025 value: 25 fe 24 0e 
+1383909089687
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909089810
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909089813
+0 
+1383909089815
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089817
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909089818
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089820
+0 Notification handle = 0x002d value: 00 00 3d 
+1383909089946
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909089947
+0 Characteristic value/descriptor: db 01 27 86 
+1383909089948
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909089949
+0 Counter : 104
+1383909089950
+0 char-write-req 0x4F 02
+1383909090088
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909090091
+0 
+1383909090093
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090095
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909090228
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090231
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909090234
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090236
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090238
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909090240
+0 Notification handle = 0x0057 value: 54 fe 00 00 00 00 
+1383909090242
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909090368
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909090371
+0 
+1383909090373
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090375
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909090508
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090512
+0 Characteristic value/descriptor: d8 01 27 86 
+1383909090514
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909090517
+0 Counter : 105
+1383909090519
+0 char-write-req 0x4F 02
+1383909090648
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909090650
+0 
+1383909090653
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090655
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909090718
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090719
+0 Notification handle = 0x0025 value: 27 fe 24 0e 
+1383909090720
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090721
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909090724
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090725
+0 Notification handle = 0x0040 value: ae f6 be 04 26 f8 
+1383909090787
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090788
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909090790
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090791
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090791
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4
+1383909090792
+0 Notification handle = 0x002d value: 02 02 44 
+1383909090794
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909090928
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909090931
+0 
+1383909090933
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909090935
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909091068
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091072
+0 Characteristic value/descriptor: d8 01 27 86 
+1383909091075
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909091077
+0 Counter : 106
+1383909091079
+0 char-write-req 0x4F 02
+1383909091208
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909091211
+0 
+1383909091213
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091215
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091218
+0 Notification handle = 0x0057 value: 93 fe 00 00 00 00 
+1383909091220
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909091349
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091352
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909091354
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091356
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091357
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909091495
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909091497
+0 
+1383909091499
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091501
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909091628
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091631
+0 Characteristic value/descriptor: d8 01 25 86 
+1383909091632
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909091634
+0 Counter : 107
+1383909091635
+0 char-write-req 0x4F 02
+1383909091697
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091699
+0 Notification handle = 0x0025 value: 1f fe 24 0e 
+1383909091702
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091704
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909091768
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909091770
+0 
+1383909091773
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091776
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909091836
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091837
+0 Notification handle = 0x002d value: 04 00 3d 
+1383909091907
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091908
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909091909
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091910
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909091912
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909092055
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909092057
+0 
+1383909092060
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092062
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909092188
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092194
+0 Characteristic value/descriptor: d8 01 25 86 
+1383909092195
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909092196
+0 Counter : 108
+1383909092197
+0 char-write-req 0x4F 02
+1383909092258
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092261
+0 Notification handle = 0x0057 value: 75 fe 00 00 00 00 
+1383909092328
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909092331
+0 
+1383909092334
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092338
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909092468
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092471
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909092474
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092477
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092480
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909092606
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909092607
+0 
+1383909092608
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092610
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909092676
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092677
+0 Notification handle = 0x0025 value: 21 fe 24 0e 
+1383909092678
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092679
+0 Notification handle = 0x0040 value: ae f6 c0 04 0c f8 
+1383909092747
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092749
+0 Characteristic value/descriptor: cf 01 25 86 
+1383909092751
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909092753
+0 Counter : 109
+1383909092754
+0 
+1383909092755
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909092756
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909092825
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092827
+0 Notification handle = 0x002d value: 02 01 44 
+1383909092888
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909092890
+0 
+1383909092893
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909092895
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909093028
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093031
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909093033
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093035
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093038
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909093168
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909093172
+0 
+1383909093174
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093177
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909093308
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093311
+0 Notification handle = 0x0057 value: 50 fe 00 00 00 00 
+1383909093314
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093317
+0 Characteristic value/descriptor: cf 01 25 86 
+1383909093318
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909093321
+0 Counter : 110
+1383909093323
+0 char-write-req 0x4F 02
+1383909093448
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909093452
+0 
+1383909093454
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093458
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909093658
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093660
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909093663
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093665
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093667
+0 [CON][BC:6A:29:AB:25:CD][LE]> c
+1383909093670
+0 Notification handle = 0x0025 value: 2b fe 24 0e 
+1383909093672
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909093798
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909093802
+0 
+1383909093805
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093807
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909093868
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093870
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909093873
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093876
+0 Notification handle = 0x002d value: 03 00 3e 
+1383909093939
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909093941
+0 Characteristic value/descriptor: cf 01 27 86 
+1383909093944
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909093946
+0 Counter : 111
+1383909093948
+0 char-write-req 0x4F 02
+1383909094078
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909094081
+0 
+1383909094083
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094085
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909094218
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094220
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909094223
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094225
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094228
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094230
+0 Notification handle = 0x0057 value: 69 fe 00 00 00 00 
+1383909094232
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909094357
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909094358
+0 
+1383909094360
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094361
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909094496
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094497
+0 Characteristic value/descriptor: cf 01 27 86 
+1383909094499
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909094501
+0 Counter : 112
+1383909094501
+0 char-write-req 0x4F 02
+1383909094636
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909094638
+0 
+1383909094639
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094640
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909094708
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094710
+0 Notification handle = 0x0025 value: 20 fe 24 0e 
+1383909094712
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094715
+0 Notification handle = 0x0040 value: b0 f6 be 04 17 f8 
+1383909094778
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094781
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909094784
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094787
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094789
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909094858
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094860
+0 Notification handle = 0x002d value: 01 00 47 
+1383909094861
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094862
+0 Notification handle = 0x0038 value: ad 6d f6 67 
+1383909094916
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909094919
+0 
+1383909094921
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909094926
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909095057
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095060
+0 Characteristic value/descriptor: d2 01 27 86 
+1383909095061
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909095062
+0 Counter : 113
+1383909095063
+0 char-write-req 0x4F 02
+1383909095196
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909095199
+0 
+1383909095200
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095202
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909095266
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095269
+0 Notification handle = 0x0057 value: 75 fe 00 00 00 00 
+1383909095336
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095338
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909095340
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095341
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095342
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909095483
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909095484
+0 
+1383909095485
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095487
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909095616
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095618
+0 Characteristic value/descriptor: d2 01 27 86 
+1383909095619
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909095621
+0 Counter : 114
+1383909095621
+0 char-write-req 0x4F 02
+1383909095687
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095689
+0 Notification handle = 0x0025 value: 24 fe 20 0e 
+1383909095757
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909095758
+0 
+1383909095760
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095761
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909095833
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095834
+0 Notification handle = 0x002d value: 00 00 3f 
+1383909095897
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095898
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909095900
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095901
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909095902
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x
+1383909095903
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909095904
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909096106
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909096108
+0 
+1383909096109
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096110
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909096246
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096248
+0 Characteristic value/descriptor: d2 01 28 86 
+1383909096249
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909096250
+0 Counter : 115
+1383909096251
+0 char-write-req 0x4F 02
+1383909096254
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096255
+0 Notification handle = 0x0057 value: 80 fe 00 00 00 00 
+1383909096386
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909096387
+0 
+1383909096388
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096389
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909096527
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096528
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909096530
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096531
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096532
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909096674
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909096676
+0 
+1383909096678
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096680
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909096682
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096683
+0 Notification handle = 0x0025 value: ea fd 20 0e 
+1383909096737
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096740
+0 Notification handle = 0x0040 value: a7 f6 bf 04 14 f8 
+1383909096807
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096809
+0 Characteristic value/descriptor: c7 01 28 86 
+1383909096810
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909096811
+0 Counter : 116
+1383909096812
+0 
+1383909096814
+0 Notification handle = 0x002d value: 02 03 3d 
+1383909096815
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 02
+1383909096949
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909096951
+0 
+1383909096954
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909096957
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-
+1383909096960
+0 Notification handle = 0x0038 value: ac 6d f7 67 
+1383909096963
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909097088
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097091
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909097094
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097097
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097100
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909097227
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909097230
+0 
+1383909097233
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097236
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-re
+1383909097239
+0 Notification handle = 0x0057 value: 87 fe 00 00 00 00 
+1383909097242
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909097375
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097379
+0 Characteristic value/descriptor: c7 01 28 86 
+1383909097382
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909097385
+0 Counter : 117
+1383909097388
+0 char-write-req 0x4F 02
+1383909097507
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909097508
+0 
+1383909097509
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097510
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x52
+1383909097647
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097648
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909097649
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097650
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097651
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-write-req 0x4F 01
+1383909097725
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097726
+0 Notification handle = 0x0025 value: 00 fe 24 0e 
+1383909097786
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909097788
+0 
+1383909097790
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097791
+0 [CON][BC:6A:29:AB:25:CD][LE]> char-read-hnd 0x4B
+1383909097793
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097794
+0 Notification handle = 0x002d value: 02 06 3e 
+1383909097926
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097928
+0 Characteristic value/descriptor: c7 01 2a 86 
+1383909097930
+0 [CON][BC:6A:29:AB:25:CD][LE]> spawn ls empty
+1383909097932
+0 Counter : 118
+1383909097933
+0 char-write-req 0x4F 02
+1383909097996
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909097998
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909098071
+0 [CON][BC:6A:29:AB:25:CD][LE]> Characteristic value was written successfully
+1383909098073
+0 
+1383909098074
+0 [CON][BC:6A:29:AB:25:CD][LE]> 
+1383909098075

@@ -66,24 +66,28 @@ int main(int argc, char **argv) {
 	char filename[200];
 
 	filename[0] = 0;
-	strcat(filename, "/home/optimus-prime/DR-SensorTag/");
+	strcat(filename, "/home/optimus-prime/DR-SensorTag-v2/temp_");
 	strcat(filename, argv[argc-1]);
 	fp = fopen(filename, "a+");
 
-	printf("Got data");
-	for(i=0;i<4;i++) {
-		sscanf(argv[i+1], "%x", &inp);		
-		pData[i] = (uint8)inp;
+	printf("Got data %s\n", filename);
+	int j=0;
+	for(i=2;i<6;i++, j++) {
+		sscanf(argv[i], "%x", &inp);		
+		pData[j] = (uint8)inp;
+		printf("%s ", argv[i]);
+		printf("pData : %d", pData[j]);
 	}
-
+	
+	
 
 	hexObj = BUILD_UINT16(pData[0], pData[1]);
 	hexAmb = BUILD_UINT16(pData[2], pData[3]);
 
-	fprintf(fp, "\n---------------------------------------------------------");
-	fprintf(fp, "\nTemperature Data [%ld]\n", getinstanttime());
-	fprintf(fp, "Ambient Temp : %3.2f", calcTmpLocal(hexAmb));
-	fprintf(fp, "\tObject(IR) Temp : %3.2f", calcTmpTarget(hexObj));
-	fprintf(fp, "\n---------------------------------------------------------");
+	//fprintf(fp, "\n---------------------------------------------------------");
+	fprintf(fp, "%s , ",argv[1]);
+	fprintf(fp, "%3.2f , ", calcTmpLocal(hexAmb));
+	fprintf(fp, "%3.2f \n", calcTmpTarget(hexObj));
+	//fprintf(fp, "\n---------------------------------------------------------");
 	fclose(fp);
 }

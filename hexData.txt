@@ -1,0 +1,1080 @@
+1383909029682
+0 Notification handle = 0x0025 value: fd fd 30 0e 
+1383909029687
+0 Characteristic value/descriptor: 01 00 
+1383909030172
+0 Characteristic value/descriptor: 01 
+1383909030592
+0 Characteristic value/descriptor: 01 
+1383909030661
+0 Notification handle = 0x0025 value: 07 fe 30 0e 
+1383909030801
+0 Notification handle = 0x002d value: 03 03 3e 
+1383909031011
+0 Characteristic value/descriptor: 01 
+1383909031361
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909031432
+0 Characteristic value/descriptor: 01 
+1383909031648
+0 Notification handle = 0x0025 value: 0a fe 30 0e 
+1383909031712
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909031782
+0 Notification handle = 0x002d value: 00 01 42 
+1383909031999
+0 Characteristic value/descriptor: fe 01 3b 86 
+1383909032202
+0 Notification handle = 0x0057 value: 63 fe 00 00 00 00 
+1383909032272
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909032419
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909032551
+0 Characteristic value/descriptor: fe 01 3b 86 
+1383909032623
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909032700
+0 Notification handle = 0x0040 value: b3 f6 bc 04 23 f8 
+1383909032761
+0 Notification handle = 0x002d value: 03 00 3f 
+1383909032832
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909033113
+0 Characteristic value/descriptor: fe 01 20 86 
+1383909033189
+0 Notification handle = 0x0057 value: 69 fe 00 00 00 00 
+1383909033392
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909033462
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909033671
+0 Characteristic value/descriptor: fe 01 20 86 
+1383909033675
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909033825
+0 Notification handle = 0x002d value: 03 01 3d 
+1383909033952
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909034161
+0 Notification handle = 0x0057 value: 4f fe 00 00 00 00 
+1383909034235
+0 Characteristic value/descriptor: 08 02 20 86 
+1383909034512
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909034522
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909034660
+0 Notification handle = 0x0025 value: 17 fe 30 0e 
+1383909034722
+0 Notification handle = 0x0040 value: b5 f6 bf 04 1e f8 
+1383909034792
+0 Characteristic value/descriptor: 08 02 20 86 
+1383909034803
+0 Notification handle = 0x002d value: 02 06 3c 
+1383909035071
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909035221
+0 Notification handle = 0x0057 value: 60 fe 00 00 00 00 
+1383909035352
+0 Characteristic value/descriptor: 08 02 23 86 
+1383909035491
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909035632
+0 Notification handle = 0x0025 value: 16 fe 30 0e 
+1383909035702
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909035772
+0 Notification handle = 0x002d value: 03 06 3e 
+1383909035983
+0 Characteristic value/descriptor: 08 02 23 86 
+1383909036192
+0 Notification handle = 0x0057 value: 74 fe 00 00 00 00 
+1383909036269
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909036544
+0 Characteristic value/descriptor: fb 01 23 86 
+1383909036553
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909036681
+0 Notification handle = 0x0025 value: 05 fe 30 0e 
+1383909036693
+0 Notification handle = 0x0040 value: ae f6 be 04 20 f8 
+1383909036822
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909036831
+0 Notification handle = 0x002d value: 01 06 3f 
+1383909037102
+0 Characteristic value/descriptor: fb 01 23 86 
+1383909037172
+0 Notification handle = 0x0057 value: 8a fe 00 00 00 00 
+1383909037382
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909037592
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909037662
+0 Characteristic value/descriptor: fb 01 21 86 
+1383909037672
+0 Notification handle = 0x0025 value: 13 fe 30 0e 
+1383909037808
+0 Notification handle = 0x002d value: 03 01 44 
+1383909037942
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909038151
+0 Notification handle = 0x0057 value: 79 fe 00 00 00 00 
+1383909038222
+0 Characteristic value/descriptor: fb 01 21 86 
+1383909038501
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909038646
+0 Notification handle = 0x0038 value: f1 6d f6 67 
+1383909038653
+0 Notification handle = 0x0025 value: 1d fe 30 0e 
+1383909038712
+0 Notification handle = 0x0040 value: b0 f6 b9 04 18 f8 
+1383909038782
+0 Characteristic value/descriptor: fa 01 21 86 
+1383909038794
+0 Notification handle = 0x002d value: 00 fe 3c 
+1383909039062
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909039208
+0 Notification handle = 0x0057 value: 48 fe 00 00 00 00 
+1383909039344
+0 Characteristic value/descriptor: fa 01 21 86 
+1383909039622
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909039632
+0 Notification handle = 0x0025 value: 1e fe 30 0e 
+1383909039691
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909039831
+0 Notification handle = 0x002d value: 02 06 42 
+1383909039903
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909040182
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909040192
+0 Notification handle = 0x0057 value: 72 fe 00 00 00 00 
+1383909040469
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909040671
+0 Notification handle = 0x0025 value: 0f fe 30 0e 
+1383909040676
+0 Notification handle = 0x0040 value: b2 f6 c0 04 22 f8 
+1383909040743
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909040754
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909040812
+0 Notification handle = 0x002d value: 03 00 3e 
+1383909041024
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909041170
+0 Notification handle = 0x0057 value: 71 fe 00 00 00 00 
+1383909041302
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909041582
+0 Characteristic value/descriptor: fa 01 1f 86 
+1383909041651
+0 Notification handle = 0x0025 value: 10 fe 30 0e 
+1383909041791
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909041796
+0 Notification handle = 0x002d value: 02 03 3d 
+1383909041861
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909042142
+0 Characteristic value/descriptor: fa 01 20 86 
+1383909042211
+0 Notification handle = 0x0057 value: 74 fe 00 00 00 00 
+1383909042422
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909042638
+0 Notification handle = 0x0025 value: 20 fe 30 0e 
+1383909042702
+0 Characteristic value/descriptor: fa 01 20 86 
+1383909042712
+0 Notification handle = 0x0040 value: b2 f6 c0 04 1b f8 
+1383909042771
+0 Notification handle = 0x002d value: 01 02 43 
+1383909042848
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909042982
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909043193
+0 Notification handle = 0x0057 value: 67 fe 00 00 00 00 
+1383909043262
+0 Characteristic value/descriptor: f7 01 20 86 
+1383909043541
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909043688
+0 Notification handle = 0x0025 value: 09 fe 30 0e 
+1383909043823
+0 Characteristic value/descriptor: f7 01 20 86 
+1383909043830
+0 Notification handle = 0x002d value: 03 01 41 
+1383909043834
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909044102
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909044171
+0 Notification handle = 0x0057 value: 59 fe 00 00 00 00 
+1383909044384
+0 Characteristic value/descriptor: f7 01 1f 86 
+1383909044661
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909044670
+0 Notification handle = 0x0025 value: 0e fe 30 0e 
+1383909044731
+0 Notification handle = 0x0040 value: b2 f6 be 04 14 f8 
+1383909044810
+0 Notification handle = 0x002d value: 02 01 40 
+1383909044874
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909044942
+0 Characteristic value/descriptor: 05 02 1f 86 
+1383909045221
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909045230
+0 Notification handle = 0x0057 value: 6e fe 00 00 00 00 
+1383909045502
+0 Characteristic value/descriptor: 05 02 1f 86 
+1383909045649
+0 Notification handle = 0x0025 value: 1b fe 30 0e 
+1383909045783
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909045791
+0 Notification handle = 0x002d value: 03 01 40 
+1383909045929
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909046065
+0 Characteristic value/descriptor: 05 02 21 86 
+1383909046209
+0 Notification handle = 0x0057 value: 69 fe 00 00 00 00 
+1383909046342
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909046628
+0 Notification handle = 0x0025 value: 18 fe 30 0e 
+1383909046691
+0 Notification handle = 0x0040 value: af f6 c1 04 1b f8 
+1383909046762
+0 Characteristic value/descriptor: 05 02 21 86 
+1383909046839
+0 Notification handle = 0x002d value: 02 01 42 
+1383909046971
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909047041
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909047189
+0 Notification handle = 0x0057 value: 63 fe 00 00 00 00 
+1383909047329
+0 Characteristic value/descriptor: 01 02 21 86 
+1383909047602
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909047671
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909047811
+0 Notification handle = 0x002d value: 02 01 3d 
+1383909047885
+0 Characteristic value/descriptor: 01 02 21 86 
+1383909048032
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909048162
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909048231
+0 Notification handle = 0x0057 value: 5b fe 00 00 00 00 
+1383909048444
+0 Characteristic value/descriptor: 01 02 1e 86 
+1383909048651
+0 Notification handle = 0x0025 value: 10 fe 30 0e 
+1383909048722
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909048732
+0 Notification handle = 0x0040 value: ab f6 c0 04 19 f8 
+1383909048791
+0 Notification handle = 0x002d value: 02 04 3c 
+1383909049002
+0 Characteristic value/descriptor: 01 02 1e 86 
+1383909049072
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909049211
+0 Notification handle = 0x0057 value: 7c fe 00 00 00 00 
+1383909049282
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909049559
+0 Characteristic value/descriptor: fc 01 1e 86 
+1383909049629
+0 Notification handle = 0x0025 value: 12 fe 30 0e 
+1383909049771
+0 Notification handle = 0x002d value: 02 06 44 
+1383909049848
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909050122
+0 Characteristic value/descriptor: fc 01 1e 86 
+1383909050125
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909050198
+0 Notification handle = 0x0057 value: 7d fe 00 00 00 00 
+1383909050401
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909050683
+0 Characteristic value/descriptor: fc 01 21 86 
+1383909050692
+0 Notification handle = 0x0025 value: 09 fe 30 0e 
+1383909050696
+0 Notification handle = 0x0040 value: ac f6 bb 04 24 f8 
+1383909050830
+0 Notification handle = 0x002d value: 00 fe 46 
+1383909050961
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909051171
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909051178
+0 Notification handle = 0x0057 value: 85 fe 00 00 00 00 
+1383909051243
+0 Characteristic value/descriptor: fc 01 21 86 
+1383909051521
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909051669
+0 Notification handle = 0x0025 value: 10 fe 30 0e 
+1383909051802
+0 Characteristic value/descriptor: f0 01 21 86 
+1383909051811
+0 Notification handle = 0x002d value: 03 00 3d 
+1383909052151
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909052160
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909052229
+0 Notification handle = 0x0057 value: 7a fe 00 00 00 00 
+1383909052431
+0 Characteristic value/descriptor: f0 01 21 86 
+1383909052642
+0 Notification handle = 0x0025 value: 1e fe 30 0e 
+1383909052711
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909052720
+0 Notification handle = 0x0040 value: ad f6 c0 04 19 f8 
+1383909052781
+0 Notification handle = 0x002d value: 01 03 47 
+1383909052991
+0 Characteristic value/descriptor: f0 01 1f 86 
+1383909053204
+0 Notification handle = 0x0057 value: 5e fe 00 00 00 00 
+1383909053209
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909053271
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909053552
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909053692
+0 Notification handle = 0x0025 value: 0e fe 30 0e 
+1383909053832
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909053842
+0 Notification handle = 0x002d value: 01 00 45 
+1383909054113
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909054181
+0 Notification handle = 0x0057 value: 53 fe 00 00 00 00 
+1383909054258
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909054391
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909054742
+0 Characteristic value/descriptor: f1 01 23 86 
+1383909054747
+0 Notification handle = 0x0025 value: 0b fe 30 0e 
+1383909054751
+0 Notification handle = 0x0040 value: ab f6 be 04 29 f8 
+1383909054817
+0 Notification handle = 0x002d value: 00 fd 3e 
+1383909055022
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909055232
+0 Notification handle = 0x0057 value: 7c fe 00 00 00 00 
+1383909055304
+0 Characteristic value/descriptor: f1 01 23 86 
+1383909055317
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909055582
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909055657
+0 Notification handle = 0x0025 value: 21 fe 30 0e 
+1383909055791
+0 Notification handle = 0x002d value: 02 05 3d 
+1383909055862
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909056142
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909056211
+0 Notification handle = 0x0057 value: 72 fe 00 00 00 00 
+1383909056351
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909056422
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909056633
+0 Notification handle = 0x0025 value: 06 fe 30 0e 
+1383909056701
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909056710
+0 Notification handle = 0x0040 value: ab f6 b6 04 1c f8 
+1383909056771
+0 Notification handle = 0x002d value: 02 03 3c 
+1383909056978
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909057192
+0 Notification handle = 0x0057 value: 68 fe 00 00 00 00 
+1383909057262
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909057408
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909057541
+0 Characteristic value/descriptor: f2 01 23 86 
+1383909057688
+0 Notification handle = 0x0025 value: 0e fe 2c 0e 
+1383909057821
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909057832
+0 Notification handle = 0x002d value: 04 06 44 
+1383909058109
+0 Characteristic value/descriptor: f6 01 23 86 
+1383909058171
+0 Notification handle = 0x0057 value: 53 fe 00 00 00 00 
+1383909058382
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909058451
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909058661
+0 Characteristic value/descriptor: f6 01 23 86 
+1383909058672
+0 Notification handle = 0x0025 value: 17 fe 2c 0e 
+1383909058731
+0 Notification handle = 0x0040 value: b3 f6 bc 04 1c f8 
+1383909058810
+0 Notification handle = 0x002d value: 04 01 41 
+1383909058941
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909059222
+0 Characteristic value/descriptor: f6 01 22 86 
+1383909059232
+0 Notification handle = 0x0057 value: 51 fe 00 00 00 00 
+1383909059503
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909059507
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909059649
+0 Notification handle = 0x0025 value: 23 fe 2c 0e 
+1383909059782
+0 Characteristic value/descriptor: f6 01 22 86 
+1383909059794
+0 Notification handle = 0x002d value: 02 00 44 
+1383909060061
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909060278
+0 Notification handle = 0x0057 value: 83 fe 00 00 00 00 
+1383909060412
+0 Characteristic value/descriptor: f1 01 22 86 
+1383909060481
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909060691
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909060696
+0 Notification handle = 0x0025 value: 11 fe 2c 0e 
+1383909060705
+0 Notification handle = 0x0040 value: b0 f6 c1 04 18 f8 
+1383909060838
+0 Notification handle = 0x002d value: 01 06 3d 
+1383909060973
+0 Characteristic value/descriptor: f1 01 22 86 
+1383909061181
+0 Notification handle = 0x0057 value: 83 fe 00 00 00 00 
+1383909061251
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909061533
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909061542
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909061679
+0 Notification handle = 0x0025 value: 0b fe 2c 0e 
+1383909061812
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909061822
+0 Notification handle = 0x002d value: 02 05 45 
+1383909062092
+0 Characteristic value/descriptor: f1 01 1f 86 
+1383909062240
+0 Notification handle = 0x0057 value: 87 fe 00 00 00 00 
+1383909062378
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909062581
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909062652
+0 Characteristic value/descriptor: f4 01 1f 86 
+1383909062658
+0 Notification handle = 0x0025 value: 1e fe 2c 0e 
+1383909062721
+0 Notification handle = 0x0040 value: b1 f6 c0 04 1b f8 
+1383909062797
+0 Notification handle = 0x002d value: 00 fd 3e 
+1383909062931
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909063212
+0 Characteristic value/descriptor: f4 01 1f 86 
+1383909063222
+0 Notification handle = 0x0057 value: 54 fe 00 00 00 00 
+1383909063491
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909063641
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909063701
+0 Notification handle = 0x0025 value: 1e fe 2c 0e 
+1383909063776
+0 Characteristic value/descriptor: f4 01 22 86 
+1383909063842
+0 Notification handle = 0x002d value: 02 02 43 
+1383909064052
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909064200
+0 Notification handle = 0x0057 value: 56 fe 00 00 00 00 
+1383909064340
+0 Characteristic value/descriptor: f4 01 22 86 
+1383909064613
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909064679
+0 Notification handle = 0x0025 value: 14 fe 2c 0e 
+1383909064681
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909064683
+0 Notification handle = 0x0040 value: b4 f6 bf 04 17 f8 
+1383909064821
+0 Notification handle = 0x002d value: 03 02 40 
+1383909064892
+0 Characteristic value/descriptor: f4 01 22 86 
+1383909065171
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909065241
+0 Notification handle = 0x0057 value: 77 fe 00 00 00 00 
+1383909065454
+0 Characteristic value/descriptor: f4 01 21 86 
+1383909065661
+0 Notification handle = 0x0025 value: 1c fe 2c 0e 
+1383909065801
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909065808
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909065815
+0 Notification handle = 0x002d value: ff ff 3e 
+1383909066084
+0 Characteristic value/descriptor: f4 01 21 86 
+1383909066228
+0 Notification handle = 0x0057 value: 91 fe 00 00 00 00 
+1383909066367
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909066642
+0 Characteristic value/descriptor: ec 01 21 86 
+1383909066651
+0 Notification handle = 0x0025 value: 1a fe 2c 0e 
+1383909066711
+0 Notification handle = 0x0040 value: b2 f6 bd 04 21 f8 
+1383909066787
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909066794
+0 Notification handle = 0x002d value: 02 04 3e 
+1383909066921
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909067202
+0 Characteristic value/descriptor: ec 01 21 86 
+1383909067212
+0 Notification handle = 0x0057 value: 81 fe 00 00 00 00 
+1383909067482
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909067691
+0 Notification handle = 0x0025 value: 20 fe 2c 0e 
+1383909067763
+0 Characteristic value/descriptor: ec 01 22 86 
+1383909067772
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909067834
+0 Notification handle = 0x002d value: 02 01 41 
+1383909068042
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909068190
+0 Notification handle = 0x0057 value: 6a fe 00 00 00 00 
+1383909068322
+0 Characteristic value/descriptor: ec 01 22 86 
+1383909068601
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909068678
+0 Notification handle = 0x0025 value: 26 fe 2c 0e 
+1383909068750
+0 Notification handle = 0x0040 value: b0 f6 bb 04 19 f8 
+1383909068812
+0 Notification handle = 0x002d value: 00 ff 3d 
+1383909068816
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909068881
+0 Characteristic value/descriptor: eb 01 22 86 
+1383909069167
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909069231
+0 Notification handle = 0x0057 value: 8c fe 00 00 00 00 
+1383909069444
+0 Characteristic value/descriptor: eb 01 22 86 
+1383909069653
+0 Notification handle = 0x0025 value: 2b fe 2c 0e 
+1383909069719
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909069789
+0 Notification handle = 0x002d value: 02 04 40 
+1383909069870
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909070009
+0 Characteristic value/descriptor: eb 01 24 86 
+1383909070211
+0 Notification handle = 0x0057 value: 8e fe 00 00 00 00 
+1383909070282
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909070561
+0 Characteristic value/descriptor: eb 01 24 86 
+1383909070708
+0 Notification handle = 0x0025 value: 17 fe 2c 0e 
+1383909070712
+0 Notification handle = 0x0040 value: ab f6 ba 04 1f f8 
+1383909070842
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909070846
+0 Notification handle = 0x002d value: 02 02 47 
+1383909070911
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909071122
+0 Characteristic value/descriptor: e7 01 24 86 
+1383909071197
+0 Notification handle = 0x0057 value: 59 fe 00 00 00 00 
+1383909071471
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909071681
+0 Notification handle = 0x0025 value: 24 fe 2c 0e 
+1383909071752
+0 Characteristic value/descriptor: e7 01 24 86 
+1383909071821
+0 Notification handle = 0x002d value: 01 00 3c 
+1383909071968
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909072031
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909072241
+0 Notification handle = 0x0057 value: 54 fe 00 00 00 00 
+1383909072313
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909072591
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909072731
+0 Notification handle = 0x0025 value: 19 fe 2c 0e 
+1383909072742
+0 Notification handle = 0x0040 value: b4 f6 c0 04 1e f8 
+1383909072801
+0 Notification handle = 0x002d value: 03 06 3f 
+1383909072943
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909073011
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909073221
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909073232
+0 Notification handle = 0x0057 value: 73 fe 00 00 00 00 
+1383909073502
+0 Characteristic value/descriptor: eb 01 23 86 
+1383909073648
+0 Notification handle = 0x0025 value: 1c fe 28 0e 
+1383909073781
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909073792
+0 Notification handle = 0x002d value: 00 ff 3d 
+1383909074065
+0 Characteristic value/descriptor: eb 01 23 86 
+1383909074074
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909074207
+0 Notification handle = 0x0057 value: 81 fe 00 00 00 00 
+1383909074341
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909074621
+0 Characteristic value/descriptor: eb 01 23 86 
+1383909074691
+0 Notification handle = 0x0025 value: 21 fe 28 0e 
+1383909074697
+0 Notification handle = 0x0040 value: ae f6 be 04 21 f8 
+1383909074828
+0 Notification handle = 0x002d value: 02 03 3d 
+1383909074901
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909075111
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909075182
+0 Characteristic value/descriptor: e0 01 23 86 
+1383909075251
+0 Notification handle = 0x0057 value: 98 fe 00 00 00 00 
+1383909075468
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909075671
+0 Notification handle = 0x0025 value: 1a fe 28 0e 
+1383909075744
+0 Characteristic value/descriptor: e0 01 23 86 
+1383909075811
+0 Notification handle = 0x002d value: 02 05 3f 
+1383909076022
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909076091
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909076232
+0 Notification handle = 0x0057 value: 60 fe 00 00 00 00 
+1383909076309
+0 Characteristic value/descriptor: e0 01 25 86 
+1383909076581
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909076651
+0 Notification handle = 0x0025 value: 1b fe 28 0e 
+1383909076728
+0 Notification handle = 0x0040 value: b1 f6 be 04 18 f8 
+1383909076861
+0 Notification handle = 0x002d value: 02 03 3e 
+1383909076939
+0 Characteristic value/descriptor: e0 01 25 86 
+1383909077141
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909077211
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909077221
+0 Notification handle = 0x0057 value: 88 fe 00 00 00 00 
+1383909077492
+0 Characteristic value/descriptor: d9 01 25 86 
+1383909077701
+0 Notification handle = 0x0025 value: 27 fe 28 0e 
+1383909077772
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909077847
+0 Notification handle = 0x002d value: 01 02 3e 
+1383909078052
+0 Characteristic value/descriptor: d9 01 25 86 
+1383909078193
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909078197
+0 Notification handle = 0x0057 value: 68 fe 00 00 00 00 
+1383909078337
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909078611
+0 Characteristic value/descriptor: d9 01 24 86 
+1383909078681
+0 Notification handle = 0x0025 value: 1e fe 28 0e 
+1383909078686
+0 Notification handle = 0x0040 value: b1 f6 bd 04 1b f8 
+1383909078820
+0 Notification handle = 0x002d value: 02 06 3f 
+1383909078894
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909079173
+0 Characteristic value/descriptor: d9 01 24 86 
+1383909079241
+0 Notification handle = 0x0057 value: 61 fe 00 00 00 00 
+1383909079246
+0 Notification handle = 0x0038 value: cd 6d f6 67 
+1383909079451
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909079660
+0 Notification handle = 0x0025 value: 24 fe 28 0e 
+1383909079735
+0 Characteristic value/descriptor: e3 01 24 86 
+1383909079804
+0 Notification handle = 0x002d value: 00 01 3d 
+1383909080013
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909080221
+0 Notification handle = 0x0057 value: 5a fe 00 00 00 00 
+1383909080290
+0 Characteristic value/descriptor: e3 01 24 86 
+1383909080297
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909080572
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909080711
+0 Notification handle = 0x0025 value: 19 fe 28 0e 
+1383909080723
+0 Notification handle = 0x0040 value: af f6 c0 04 26 f8 
+1383909080852
+0 Notification handle = 0x002d value: 02 06 3d 
+1383909080858
+0 Characteristic value/descriptor: e3 01 23 86 
+1383909081131
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909081201
+0 Notification handle = 0x0057 value: 75 fe 00 00 00 00 
+1383909081341
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909081417
+0 Characteristic value/descriptor: e3 01 23 86 
+1383909081691
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909081700
+0 Notification handle = 0x0025 value: 19 fe 28 0e 
+1383909081841
+0 Notification handle = 0x002d value: 02 06 3d 
+1383909081971
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909082251
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909082258
+0 Notification handle = 0x0057 value: 72 fe 00 00 00 00 
+1383909082390
+0 Notification handle = 0x0038 value: cc 6d f7 67 
+1383909082601
+0 Characteristic value/descriptor: e7 01 23 86 
+1383909082671
+0 Notification handle = 0x0025 value: 41 fe 28 0e 
+1383909082750
+0 Notification handle = 0x0040 value: ad f6 be 04 1a f8 
+1383909082810
+0 Notification handle = 0x002d value: 02 02 3d 
+1383909082882
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909083168
+0 Characteristic value/descriptor: e7 01 26 86 
+1383909083231
+0 Notification handle = 0x0057 value: 50 fe 00 00 00 00 
+1383909083441
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909083445
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909083651
+0 Notification handle = 0x0025 value: 1b fe 28 0e 
+1383909083721
+0 Characteristic value/descriptor: e7 01 26 86 
+1383909083791
+0 Notification handle = 0x002d value: 01 01 3e 
+1383909084001
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909084211
+0 Notification handle = 0x0057 value: 5a fe 00 00 00 00 
+1383909084283
+0 Characteristic value/descriptor: d9 01 26 86 
+1383909084428
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909084561
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909084708
+0 Notification handle = 0x0025 value: 1c fe 28 0e 
+1383909084712
+0 Notification handle = 0x0040 value: ae f6 ba 04 1d f8 
+1383909084839
+0 Characteristic value/descriptor: d9 01 26 86 
+1383909084846
+0 Notification handle = 0x002d value: 02 03 3e 
+1383909085122
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909085267
+0 Notification handle = 0x0057 value: 86 fe 00 00 00 00 
+1383909085402
+0 Characteristic value/descriptor: d9 01 28 86 
+1383909085471
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909085681
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909085690
+0 Notification handle = 0x0025 value: 1e fe 24 0e 
+1383909085828
+0 Notification handle = 0x002d value: 01 01 3e 
+1383909085960
+0 Characteristic value/descriptor: d9 01 28 86 
+1383909086240
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909086250
+0 Notification handle = 0x0057 value: 6a fe 00 00 00 00 
+1383909086521
+0 Characteristic value/descriptor: da 01 28 86 
+1383909086530
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909086668
+0 Notification handle = 0x0025 value: 26 fe 24 0e 
+1383909086731
+0 Notification handle = 0x0040 value: ae f6 bf 04 27 f8 
+1383909086802
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909086811
+0 Notification handle = 0x002d value: 00 00 3b 
+1383909087081
+0 Characteristic value/descriptor: da 01 25 86 
+1383909087230
+0 Notification handle = 0x0057 value: 6e fe 00 00 00 00 
+1383909087361
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909087578
+0 Notification handle = 0x0038 value: cc 6d f6 67 
+1383909087642
+0 Characteristic value/descriptor: da 01 25 86 
+1383909087711
+0 Notification handle = 0x0025 value: 36 fe 24 0e 
+1383909087921
+0 Notification handle = 0x002d value: 02 05 3c 
+1383909087991
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909088201
+0 Notification handle = 0x0057 value: 5d fe 00 00 00 00 
+1383909088272
+0 Characteristic value/descriptor: db 01 25 86 
+1383909088551
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909088620
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909088697
+0 Notification handle = 0x0025 value: 22 fe 24 0e 
+1383909088702
+0 Notification handle = 0x0040 value: ae f6 c1 04 26 f8 
+1383909088833
+0 Characteristic value/descriptor: db 01 25 86 
+1383909088842
+0 Notification handle = 0x002d value: 02 06 40 
+1383909089111
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909089258
+0 Notification handle = 0x0057 value: 5f fe 00 00 00 00 
+1383909089398
+0 Characteristic value/descriptor: db 01 27 86 
+1383909089672
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909089678
+0 Notification handle = 0x0038 value: ac 6d f7 67 
+1383909089685
+0 Notification handle = 0x0025 value: 25 fe 24 0e 
+1383909089820
+0 Notification handle = 0x002d value: 00 00 3d 
+1383909089947
+0 Characteristic value/descriptor: db 01 27 86 
+1383909090231
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909090240
+0 Notification handle = 0x0057 value: 54 fe 00 00 00 00 
+1383909090512
+0 Characteristic value/descriptor: d8 01 27 86 
+1383909090719
+0 Notification handle = 0x0025 value: 27 fe 24 0e 
+1383909090721
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909090725
+0 Notification handle = 0x0040 value: ae f6 be 04 26 f8 
+1383909090788
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909090792
+0 Notification handle = 0x002d value: 02 02 44 
+1383909091072
+0 Characteristic value/descriptor: d8 01 27 86 
+1383909091218
+0 Notification handle = 0x0057 value: 93 fe 00 00 00 00 
+1383909091352
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909091631
+0 Characteristic value/descriptor: d8 01 25 86 
+1383909091699
+0 Notification handle = 0x0025 value: 1f fe 24 0e 
+1383909091704
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909091837
+0 Notification handle = 0x002d value: 04 00 3d 
+1383909091908
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909092194
+0 Characteristic value/descriptor: d8 01 25 86 
+1383909092261
+0 Notification handle = 0x0057 value: 75 fe 00 00 00 00 
+1383909092471
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909092677
+0 Notification handle = 0x0025 value: 21 fe 24 0e 
+1383909092679
+0 Notification handle = 0x0040 value: ae f6 c0 04 0c f8 
+1383909092749
+0 Characteristic value/descriptor: cf 01 25 86 
+1383909092755
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909092827
+0 Notification handle = 0x002d value: 02 01 44 
+1383909093031
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909093311
+0 Notification handle = 0x0057 value: 50 fe 00 00 00 00 
+1383909093317
+0 Characteristic value/descriptor: cf 01 25 86 
+1383909093660
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909093670
+0 Notification handle = 0x0025 value: 2b fe 24 0e 
+1383909093870
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909093876
+0 Notification handle = 0x002d value: 03 00 3e 
+1383909093941
+0 Characteristic value/descriptor: cf 01 27 86 
+1383909094220
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909094230
+0 Notification handle = 0x0057 value: 69 fe 00 00 00 00 
+1383909094497
+0 Characteristic value/descriptor: cf 01 27 86 
+1383909094710
+0 Notification handle = 0x0025 value: 20 fe 24 0e 
+1383909094715
+0 Notification handle = 0x0040 value: b0 f6 be 04 17 f8 
+1383909094781
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909094860
+0 Notification handle = 0x002d value: 01 00 47 
+1383909094862
+0 Notification handle = 0x0038 value: ad 6d f6 67 
+1383909095060
+0 Characteristic value/descriptor: d2 01 27 86 
+1383909095269
+0 Notification handle = 0x0057 value: 75 fe 00 00 00 00 
+1383909095338
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909095618
+0 Characteristic value/descriptor: d2 01 27 86 
+1383909095689
+0 Notification handle = 0x0025 value: 24 fe 20 0e 
+1383909095834
+0 Notification handle = 0x002d value: 00 00 3f 
+1383909095898
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909095903
+0 Notification handle = 0x0038 value: ac 6d f6 67 
+1383909096248
+0 Characteristic value/descriptor: d2 01 28 86 
+1383909096255
+0 Notification handle = 0x0057 value: 80 fe 00 00 00 00 
+1383909096528
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909096683
+0 Notification handle = 0x0025 value: ea fd 20 0e 
+1383909096740
+0 Notification handle = 0x0040 value: a7 f6 bf 04 14 f8 
+1383909096809
+0 Characteristic value/descriptor: c7 01 28 86 
+1383909096814
+0 Notification handle = 0x002d value: 02 03 3d 
+1383909096960
+0 Notification handle = 0x0038 value: ac 6d f7 67 
+1383909097091
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909097239
+0 Notification handle = 0x0057 value: 87 fe 00 00 00 00 
+1383909097379
+0 Characteristic value/descriptor: c7 01 28 86 
+1383909097648
+0 Characteristic value/descriptor: c8 b3 46 6e 20 bb 4d 8a ef 0e 1e 00 e2 ea fa 09 
+1383909097726
+0 Notification handle = 0x0025 value: 00 fe 24 0e 
+1383909097794
+0 Notification handle = 0x002d value: 02 06 3e 
+1383909097928
+0 Characteristic value/descriptor: c7 01 2a 86 
+1383909097998
+0 Notification handle = 0x0038 value: ac 6d f6 67 
