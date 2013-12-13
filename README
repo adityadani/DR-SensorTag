@@ -5,3 +5,163 @@ Prof Young Cho
 
 This is a repository for my Directed Research under Prof Young Cho
 for the Fall 2013 semester.
+
+===================
+Project Description
+===================
+
+Main aim of this Directed Research was to implement a logging utility
+that would log the different sensor measurements measured by the
+sensorTag instrument. The sensorTag has the following sensors and this logging
+utility provides support for all these measurements:
+1] Temperature
+2] Accelerometer
+3] Gyroscope
+4] Magnetometer
+5] Humidity
+6] Barometer
+
+All these measurements are stored with their timestamps when the measurement was
+received from the instrument in their respective csv file.
+
+======
+Design
+======
+
+This logging functionality consists of three main parts viz.
+
+[A] Binary Utility Functions
+
+    These are the binaries which get generated when you run the "make_script.sh".
+    One binary utility gets created for each of the above sensorTag measurements.
+    The primary function of these binaries is to convert the hex data returned by
+    the sensorTag into actual readings/measurements.
+
+[B] Scripts to get Data and process Data from sensor Tag.
+    
+    There are a group of scripts which are used to get and process data from sensorTag.
+    In order to recieve a particular sensor readings we need to write a specific value into
+    one of the memory addresses for the sensorTag.
+    
+    Also, we use the notification mode of the sensor Tag wherein all the sensor readings are sent
+    to the bluetooth connected laptop/device periodically. Currently the three sensor measurements
+    which matter the most and their sampling rates are as follows:
+    1] Temperature - 10 samples/sec
+    2] Accelerometer - 10 samples/sec
+    3] Gyroscope - 1 sample/sec
+    
+    Following are the memory locations for each sensor:
+    
+    Temperature
+    -----------
+    To start sensing:-  Write 01 at 0x29
+    To enable notification mode:- Write 0100 at 0x26
+
+    Accelerometer
+    -----------
+    To start sensing:-  Write 01 at 0x31
+    To enable notification mode:- Write 0100 at 0x2E
+    To increase sampling rate to 10 samples/sec :- Write 10 at 0x34 (default is 1Hz)
+
+    Gyroscope
+    -----------
+    To start sensing:-  Write 01 at 0x5B
+    To enable notification mode:- Write 0100 at 0x58
+
+    Following are the scripts and their functionalities.
+
+    1] sensorTag.sh
+    ---------------
+    This is the starter script which takes the MAC address of the sensorTag to connect
+    your laptop to. It basically runs the run_gatttool script and appends timestamp
+    to each sensor reading received from the sensorTag. You redirect the output for this
+    script to a text file with name of your choice.
+
+    2] run_gatttool.sh
+    ------------------
+    This script is called from the sensorTag.sh script. It basically performs the core 
+    functionality of connecting the laptop to the sensorTag device using bluetooth. It also
+    writes appropriate values in sensorTag memory addresses using gatttool to enable the
+    sensors and start the notification of the sensor readings.
+
+    3] aggregate_data.sh
+    --------------------
+    After runnning the sensorTag.sh you will get a file which will contain the output returned
+    by the gatttool appended with timestamps. You give this file as an input to this script. This
+    script basically aggregates the data and removes the unecessary texts from the file and just outputs
+    the hex Data measurements received from the semsorTag into a file. This intermediate file is then
+    processed and each hex Data reading is given to the appropriate binary utility functions
+    described above. The binary utility functions then outputs the obtained measurements into
+    separate csv files.
+
+[C] Audio processing
+    The third part to this project is to record an audio along with the sensorTag readings that
+    have been taken and then process that audio. The audio recording device records the audio
+    and stores it into .wav file. We use the linux commandline tool "sox" which can take an .wav file
+    as input and output a data file consisting of amplitudes time sorted. You can also specify the 
+    sampling rate too. Following is the format
+    
+    $ sox -r <sampling rate> <*.wav file> <*.dat file>
+
+    The output file name extension should be "*.dat" in order for sox to recognize what kind of operation
+    needs to be done on the input file.
+
+    The sox command has been included in the aggregate data script. And thus that script additionally
+    takes two extra inputs vizz Input Audio File and the sampling rate.
+
+
+===========
+Compilation
+===========
+
+To compile all the C programs and generate the binary utility functions.
+$ ./make_script.sh
+
+======================================================
+Execution and Genrating sensor measurement .csv files
+======================================================
+
+1] To obtain the MAC address of the sensorTag run the following command
+and press the button present on the sensorTag on its side panel.
+
+    $ sudo hcitool lescan
+
+Ensure that the bluetooth of your laptop is enabled.
+
+2] To obtain the hexData from the sensorTag for each sensors. Run the following 
+   command.
+
+   $ ./sensorTag.sh <MAC Address> > <Hex-Dump Filename>
+
+Use the MAC address obtained from step 1]. Also use any filename with any extension
+as the <Hex-Dump Filename> parameter.
+
+3] To aggregate and obtain the final sensor measurements/readings.
+
+   $ ./aggregate_data.sh <MAC address> <Hex-Dump Filename> <Audio Filename> <Sampling Rate>
+
+Use the MAC address obtained frm step 1]. Use the same filename for <Hex-Dump Filename> 
+as used in step 2]. The third parameter is the input audio file 'a .wav file' obained 
+from the audio recorder. While the fourth parameter is the sampling rate at which the
+audio file should be sampled. As all the other measurements are done at 10Hz it is 
+advisable to give the 4th parameter as 10.
+
+The final measurements and the output files generated are:-
+
+Temperature Measurements --> temp_MAC-Address
+Accelerometer Measurements --> accel_MAC-Address
+Gyroscope Measurements --> gyro_MAC-Address
+Audio Measurements --> audio_MAC-Address.dat
+
+==================
+Output File Format
+==================
+
+All the output files are of the csv or Comma-Seprated File format.
+The general format is:-
+
+[Timestmap1, Reading1-PartA, Reading1-PartB, Reading1-PartC]
+[Timestmap2, Reading2-PartA, Reading2-PartB, Reading2-PartC]
+[Timestmap3, Reading3-PartA, Reading3-PartB, Reading3-PartC]
+
+  

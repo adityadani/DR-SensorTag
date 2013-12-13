@@ -1,7 +1,7 @@
 #!/bin/bash
 
 usage() {
-    echo "./sensorTag.sh <MAC Address> > <Output Filename>"
+    echo "./sensorTag.sh <MAC Address> > <Hex-Dump Filename>"
     exit 1
 }
 
