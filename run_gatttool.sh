@@ -27,6 +27,8 @@ send -i $orig "char-write-req 0x31 01\r"
 expect -i $orig "written successfully"
 send -i $orig "\r\rchar-write-req 0x2E 0100\r"
 expect -i $orig "written successfully"
+send -i $orig "\r\rchar-write-req 0x34 10\r"
+expect -i $orig "written successfully"
 send -i $orig "\r\rchar-read-hnd 0x31\r"
 expect -i $orig "Characteristic value"
 
