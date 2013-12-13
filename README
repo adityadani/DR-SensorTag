@@ -126,6 +126,10 @@ Requirements
 
 2] Kernel Version 3.9.11 or higher.
 
+3] Note that this directory/repository also contains an empty directory which has been names "empty"
+   It is required by the bash and expect scripts. Ensure that your working directory has this 
+   directory.
+
 ======================================================
 Execution and Genrating sensor measurement .csv files
 ======================================================
