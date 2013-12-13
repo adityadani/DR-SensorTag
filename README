@@ -117,6 +117,15 @@ Compilation
 To compile all the C programs and generate the binary utility functions.
 $ ./make_script.sh
 
+============
+Requirements
+============
+
+1] Bluetooth supported laptop. Must support Bluetooth Low Energy (BLE)(aka Bluetooth 4.0
+ or Bluetooth Smart)
+
+2] Kernel Version 3.9.11 or higher.
+
 ======================================================
 Execution and Genrating sensor measurement .csv files
 ======================================================
