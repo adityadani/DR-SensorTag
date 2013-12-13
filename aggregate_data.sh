@@ -1,6 +1,17 @@
 #!/bin/bash
 
+usage() {
+    echo "./aggregate_data.sh <MAC address> <Hex-Dump Filename> <Audio Filename> <Sampling Rate>"
+    exit 1
+}
+
 num=1
+hexData="hexData_"
+audio="audio_"
+dat=".dat"
+
+[[ $# -ne 4 ]] && usage
+
 while read -r line
 do
     count=$(echo $line | wc -c)
@@ -9,13 +20,13 @@ do
 	#echo $line >> hexData.txt
     fi
     if [[ "${line}" == *Notification* ]]; then
-	echo $prev_line >> hexData.txt
-	echo $line >> hexData.txt
+	echo $prev_line >> $hexData$1
+	echo $line >> $hexData$1
     elif [[ "${line}" == *descriptor* ]]; then
-	echo $prev_line >> hexData.txt
-	echo $line >> hexData.txt
+	echo $prev_line >> $hexData$1
+	echo $line >> $hexData$1
     fi
-done < $1
+done < $2
 
 while read -r line
 do
@@ -47,4 +58,6 @@ do
 		;;
 	esac
     fi
-done < hexData.txt
+done < $hexData$1
+
+sox -r $4 $3 $audio$1$dat
